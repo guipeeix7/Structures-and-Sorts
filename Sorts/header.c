@@ -18,5 +18,6 @@
 // #include "quickSort.c"
 #include "quickSortV2.c"
 #include "quickSelect.c"
+#include "pqSortSimple.c"
 // #include "megaBlaster.c"
 #include "./../Common/binarySearch.c"

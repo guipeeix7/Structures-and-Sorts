@@ -1,25 +1,25 @@
 
-typedef struct Item{
+typedef struct DLL{
     int key; 
     int value;    
-    struct Item *prevNodeAddress; 
-    struct Item *proxNodeAddress; 
+    struct DLL *prevNodeAddress; 
+    struct DLL *proxNodeAddress; 
 
-} Item; 
+} DLL; 
 
 //receive the data to the node ?
 // https://docs.google.com/drawings/d/1YZYjI_7NeXlYUMQQAL-116gLrXH4_1RWBKCfwjsFIIc/edit?usp=sharing
-// Item *headNode; 
-Item *init(){
-    Item *headNode = (Item*) malloc(sizeof(Item));  
+// DLL *headNode; 
+DLL *init(){
+    DLL *headNode = (DLL*) malloc(sizeof(DLL));  
     headNode->key = 0; 
     headNode->proxNodeAddress = NULL; 
     headNode->prevNodeAddress = NULL; 
     return headNode; 
 }
 
-Item *addBeginList(int key, int value, Item *headNode){
-    Item *newNode = (Item*) malloc(sizeof(Item)); 
+DLL *addBeginList(int key, int value, DLL *headNode){
+    DLL *newNode = (DLL*) malloc(sizeof(DLL)); 
     
     if(headNode->prevNodeAddress == NULL &&  headNode->proxNodeAddress == NULL){
         headNode->proxNodeAddress = newNode; 
@@ -37,8 +37,8 @@ Item *addBeginList(int key, int value, Item *headNode){
     return newNode; 
 }
 
-Item *addEndList( int key, int value, Item *headNode){
-    Item *newNode = (Item*) malloc(sizeof(Item)); 
+DLL *addEndList( int key, int value, DLL *headNode){
+    DLL *newNode = (DLL*) malloc(sizeof(DLL)); 
     
     if(headNode->prevNodeAddress == NULL &&  headNode->proxNodeAddress == NULL){
         newNode->prevNodeAddress = NULL; 
@@ -56,7 +56,7 @@ Item *addEndList( int key, int value, Item *headNode){
 }
 
 
-int isEmpty(Item *headNode){
+int isEmpty(DLL *headNode){
     if(headNode->proxNodeAddress == NULL && headNode->prevNodeAddress == NULL){
         printf("Double Linked list is empty!\n");
         return 1; 
@@ -65,10 +65,10 @@ int isEmpty(Item *headNode){
 }
 
 
-Item *search(int value, Item *headNode, char opt[]){
+DLL *search(int value, DLL *headNode, char opt[]){
     if(isEmpty == 0) return NULL;  
 
-    Item *temp = headNode->prevNodeAddress;
+    DLL *temp = headNode->prevNodeAddress;
     while(temp != NULL){
         if(temp->value == value) return temp;
         temp = temp->proxNodeAddress;
@@ -79,15 +79,15 @@ Item *search(int value, Item *headNode, char opt[]){
 }
 
 
-void searchAndDelete(int value, Item *headNode){
+void searchAndDelete(int value, DLL *headNode){
     if(isEmpty(headNode) == 1) return; 
     
-    Item *item = search(value,headNode, "");
+    DLL *item = search(value,headNode, "");
     if(item == NULL) return;
 
-    Item *prevNode = item->prevNodeAddress; 
-    Item *proxNode = item->proxNodeAddress; 
-    Item *aux = item;
+    DLL *prevNode = item->prevNodeAddress; 
+    DLL *proxNode = item->proxNodeAddress; 
+    DLL *aux = item;
     
     if(proxNode == NULL){
         headNode->proxNodeAddress = prevNode;
@@ -106,10 +106,10 @@ void searchAndDelete(int value, Item *headNode){
     free(item);
 }
 
-Item exchangePosition(){
+DLL exchangePosition(){
     
 }
-void orderedInserction(int key, int value, Item *headNode){
+void orderedInserction(int key, int value, DLL *headNode){
     //1 - Search for the greater number OK
     //2 - get the Current_Node->prox if its null just insert and set current->prox = new   OK
         //2B - Else get Current_Node->prox->prev and link it to my current node OK
@@ -119,13 +119,13 @@ void orderedInserction(int key, int value, Item *headNode){
     //1 - If it is the first node change the new->prox = head->prox 
     //2 - head->prox = new
 
-    Item *newNode = (Item *) malloc(sizeof(Item)); 
+    DLL *newNode = (DLL *) malloc(sizeof(DLL)); 
     newNode->key = key; 
     newNode->value = value; 
     newNode->proxNodeAddress = NULL; 
     newNode->prevNodeAddress = NULL; 
 
-    Item *i = headNode->prevNodeAddress; 
+    DLL *i = headNode->prevNodeAddress; 
     if(isEmpty(headNode)){
         headNode->prevNodeAddress = newNode; 
         headNode->proxNodeAddress = newNode;
@@ -162,8 +162,8 @@ void orderedInserction(int key, int value, Item *headNode){
     return; 
 }
 
-void showList(Item *headNode){
-    Item *temp = headNode->prevNodeAddress; 
+void showList(DLL *headNode){
+    DLL *temp = headNode->prevNodeAddress; 
     
     while(temp != NULL){
         printf("key: %d value: %d\n", temp->key, temp->value);
@@ -172,8 +172,8 @@ void showList(Item *headNode){
     return; 
 }
 
-void showReveseList(Item *headNode){
-    Item *temp = headNode->proxNodeAddress; 
+void showReveseList(DLL *headNode){
+    DLL *temp = headNode->proxNodeAddress; 
     
     while(temp != NULL){
         printf("key: %d value: %d\n", temp->key, temp->value);

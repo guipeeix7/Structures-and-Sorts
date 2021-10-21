@@ -1,8 +1,8 @@
 #include "header.c"
 
 int main(){
-    int lenghtOfVector = 5000; //150000 is the test base 2000000
-    int *V = generateReverseOrderedVector(lenghtOfVector);
+    int lenghtOfVector = 20000000; //150000 is the test base 2000000
+    int *V = generateVector(lenghtOfVector);
         
     // return 0;
     
@@ -52,7 +52,7 @@ int main(){
     // user    0m0.027s
     // sys     0m0.000s
     
-    quickSort(V , 0 , lenghtOfVector-1);
+    // quickSort(V , 0 , lenghtOfVector-1);
     // real    0m0.024s
     // user    0m0.022s
     // sys     0m0.000s
@@ -72,9 +72,11 @@ int main(){
     // showVector(V, lenghtOfVector); 
     // showVector(V, lenghtOfVector); 
     // showVector(V, lenghtOfVector); 
-    
-
-    showVectorIntervals(V, 0, lenghtOfVector-1); 
+    // sortPq(0 ,lenghtOfVector, V );
+    // real    0m0.573s
+    // user    0m0.570s
+    // sys     0m0.000s
+    // showVectorIntervals(V, 0, lenghtOfVector-1); 
     free(V);
     return 0; 
 }

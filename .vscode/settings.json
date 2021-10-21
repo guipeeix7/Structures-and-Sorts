@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "header.h": "c",
+        "*.tcc": "c",
+        "memory": "c",
+        "algorithm": "c",
+        "functional": "c",
+        "limits": "c",
+        "system_error": "c",
+        "unistd.h": "c",
+        "vector": "c",
+        "optional": "c",
+        "istream": "c",
+        "ostream": "c",
+        "ratio": "c",
+        "array": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c"
+    }
+}

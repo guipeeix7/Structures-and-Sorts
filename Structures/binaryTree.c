@@ -27,11 +27,10 @@ BinaryTree* insert(BinaryTree *node,int value){
 }
 
 BinaryTree* searchAndInsert(BinaryTree *node,int value){
-    if(node == NULL) {return insert(node, value);}
-    // else if(value > node->value && node->right == NULL){ node->right = insert(node, value); return NULL; } 
-    // else if(value <= node->value && node->left == NULL) {node->left = insert(node, value); return NULL; } 
+    if(node == NULL) return insert(value);
     else if(value > node->value) node->right = searchAndInsert(node->right, value);
     else if(value <= node->value ) node->left = searchAndInsert(node->left, value);
+    return node;
 }
 
 BinaryTree* search(BinaryTree *node,int value){
@@ -62,7 +61,6 @@ BinaryTree* deleteNode(BinaryTree *node , int value){
         printf("This node isn't exists");
     }
     return finding;
-
     //This will be a lot more complex my brother
 }
 

@@ -1,0 +1,9 @@
+
+Problemas
+    A - Intercala8 - [HTML] [PDF]
+    B - Implemente o MergeSort - [HTML] [PDF]
+    C - Problema trocado: Um problema simples - [LINK]
+    D - Busca Binaria - [HTML] [PDF]
+    E - Busca Binaria - [HTML] [PDF]
+    F - Número Proibido - [HTML] [PDF]
+    G - Remoção - [HTML] [PDF]

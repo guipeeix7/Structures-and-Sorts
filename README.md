@@ -15,4 +15,3 @@
   <li><a href="https://github.com/guipeeix7/Structures-and-Sorts/blob/master/Sorts/shellSort.c" >  shell sort </a></li>
 </ul>
 
-<img src="programming.gif" alt="Computer man" style="width:48px;height:48px;">

@@ -9,14 +9,26 @@
 #include <unistd.h> // notice this! you need it!
 
 
-#define MAXSIZE 10 
+#define MAXSIZE 10000 
 
+// typedef struct  mapStruct{
+//     int x; 
+//     int y; 
+//     int state; 
+//     int points; 
+// }mapStruct;
 
 typedef struct BinaryTree
 {
+    int x; 
+    int y; 
+    int state; 
+    int points; 
+
+    int value; //The hash (:
+
     struct BinaryTree *right; 
     struct BinaryTree *left;
-    int value; 
 } BinaryTree;
 
 typedef struct LinkedHash{
@@ -26,24 +38,29 @@ typedef struct LinkedHash{
 }LinkedHash;
 
 
-BinaryTree* insertBt(int value){
+BinaryTree* insertBt(int btHash, int x, int y, int points){
     BinaryTree *newNode = (BinaryTree*) malloc(sizeof(BinaryTree));
     newNode->right = NULL;
     newNode->left = NULL;
-    newNode->value = value;
+    newNode->value = btHash;
+    newNode->x = x;
+    newNode->y = y;
+    newNode->points = points;
+    newNode->state = 0;
+
     return newNode; 
 }
 
-BinaryTree* searchAndInsertBt(BinaryTree *node,int value){
-    if(node == NULL) return insertBt(value);
-    else if(value > node->value) node->right = searchAndInsertBt(node->right, value);
-    else if(value <= node->value ) node->left = searchAndInsertBt(node->left, value);
+BinaryTree* searchAndInsertBt(BinaryTree *node,int BTHash, int x, int y, int points){
+    if(node == NULL) return insertBt(BTHash, x, y, points);
+    else if(BTHash > node->value) node->right = searchAndInsertBt(node->right, BTHash, x, y, points);
+    else if(BTHash <= node->value ) node->left = searchAndInsertBt(node->left, BTHash, x, y , points);
     return node;
 }
 
 void showBinaryTreeIn(BinaryTree *node){
     if(node->left != NULL) showBinaryTreeIn(node->left);
-    printf("%d ", node->value); 
+    printf("[%d (%d, %d) pt: %d ]", node->value, node->x, node->y, node->points); 
     if(node->right != NULL) showBinaryTreeIn(node->right); 
 }
 
@@ -64,15 +81,18 @@ LinkedHash *initLH(int sizeVector){
         V[i].value = 0; 
         V[i].flag = -1; 
         V[i].BtsV = NULL; 
-        // V[i].BtsV = (BinaryTree*) malloc(sizeof(BinaryTree));
-        // root = searchAndInsert(root , 321); 
     }   
     return V; 
 }
 
 int hash(int num){
-    return num%MAXSIZE;
+    return (((num<0) ?-num:num)%MAXSIZE);
 }
+
+int btHash(int x, int y){
+    return ((((x<0) ?-x:x)%MAXSIZE)+(((y<0) ?-y:y)/MAXSIZE))/2; 
+}
+
 
 int isEmptyLinkedHash(LinkedHash *headNode){
     if(headNode->BtsV == NULL){
@@ -82,51 +102,19 @@ int isEmptyLinkedHash(LinkedHash *headNode){
     return 0;
 }
 
-// LinkedHash *search(int value, LinkedHash *headNode, char opt[]){
-//     LinkedHash *temp = headNode[hash(value)].BtsV;
-
-//     while(temp != NULL){
-//         if(temp->value == value) return temp;
-//         temp = temp->prox;
-//     }
-
-//     printf("Value not found!\n"); 
-//     return NULL; 
-// }
-
-BinaryTree* searchBT(BinaryTree *node, int value){ //THIS FUNTION CULD NEED A REPAIR
+BinaryTree* searchBT(BinaryTree *node, int value, int x, int y){ //THIS FUNTION CULD NEED A REPAIR
     if(node == NULL) return NULL; 
-    else if(node->value == value){return node;}   
-    else if(node->value < value) return searchBT(node->right, value);
-    else if(node->value > value) return searchBT(node->left, value);
+    else if(node->value == value){
+        if(node->x == x && node->y == y){
+            return node;
+        }
+        return searchBT(node->left, value, x, y);
+    }
+    
+    else if(node->value < value) return searchBT(node->right, value, x, y);
+    else if(node->value > value) return searchBT(node->left, value, x, y);
     return node;
 }
-
-BinaryTree *searchNode(LinkedHash *V, int value){
-    if(V[hash(value)].flag == -1){
-        printf("not finded\n");
-        return NULL; 
-    } 
-
-    if(searchBT(V[hash(value)].BtsV, value) != NULL){
-        printf("finded: %d\n", searchBT(V[hash(value)].BtsV, value)->value);
-        return searchBT(V[hash(value)].BtsV, value); 
-    }
-    return NULL; 
-}
-
-
-//trying to see the hash function
-// void showStack(LinkedHash *headNode){
-//     LinkedHash *temp = headNode; 
-    
-//     while(temp != NULL){
-//         printf(" -> %d", temp->value);
-//         temp = temp->prox; 
-//     }
-//     return; 
-// }
-
 
 void showLinkedList(LinkedHash *V, int size){
     for(int i = 0 ; i < size ; i++){
@@ -147,25 +135,25 @@ void showLinkedList(LinkedHash *V, int size){
 //     return newNode; 
 // }
 
-LinkedHash *insert(int value, LinkedHash *V){ 
-    if(V[hash(value)].BtsV == NULL){
-        V[hash(value)].BtsV = searchAndInsertBt(V[hash(value)].BtsV, value);
+LinkedHash *insert(LinkedHash *V, int x, int y, int points){ 
+    if(V[hash(y)].BtsV == NULL){
+        V[hash(y)].BtsV = searchAndInsertBt(V[hash(y)].BtsV, btHash(x, y), x, y, points);
     }
     else{
-        searchAndInsertBt(V[hash(value)].BtsV, value);
+        searchAndInsertBt(V[hash(y)].BtsV, btHash(x, y) , x, y, points);
     }
     
-    if(V[hash(value)].flag == -1){
-        V[hash(value)].value = hash(value);
+    if(V[hash(y)].flag == -1){
+        V[hash(y)].value = hash(y);
     }
 
-    V[hash(value)].flag = 1; 
+    V[hash(y)].flag = 1; 
 
     return V;
 }
 
 int linkedHash(){
-    int sizeVector = 10;
+    int sizeVector = MAXSIZE;
     LinkedHash *V = initLH(sizeVector);
 
     //  for(int i = 0 ; i < sizeVector ; i++){
@@ -174,37 +162,56 @@ int linkedHash(){
     //     V[i].prox = NULL; 
     //     printf("%d", V[i].flag);
     // }   
-    // insert(4, V);
+    // LinkedHash *V, int value, int x, int y, int points
+    
+    // insert(V, x, y, points);
+    // insert(V, 10, 20, 300);
+    // insert(V, 23, 12, 32);
+
+    // insert(V, 325, 5345, 543);
+    // insert(V, 324, 5355, 543);
+    int x, y , points; 
+    while(scanf("%d %d %d", &x, &y, &points ) != EOF){
+        insert(V, x, y, points);
+    }
+    // insert(V, 321, 5375, 564);
+    
+    // insert(V, 21, 323, 4345);
+    // insert(V, 12, 3, 434);
+    // insert(V, 12, 43, 435);
     // insert(14, V);
     // insert(24, V);
     // insert(34, V);
     // insert(8, V);
     // insert(8, V);
-    insert(9, V);
-    insert(18, V);
-    insert(18, V);
-    insert(28, V);
-    insert(38, V);
-    // insert(8, V);
-    // popTopLinkedHash(V, hash(8));
-    // popTopLinkedHash(V, hash(8));
-    // popTopLinkedHash(V, hash(8));
-    // popTopLinkedHash(V, hash(8));
+    // insert(9, V);
+    // insert(18, V);
+    // insert(18, V);
+    // insert(28, V);
+    // insert(38, V);
+    // // insert(8, V);
+    // // popTopLinkedHash(V, hash(8));
+    // // popTopLinkedHash(V, hash(8));
+    // // popTopLinkedHash(V, hash(8));
+    // // popTopLinkedHash(V, hash(8));
+    // // insert(65, V);
     // insert(65, V);
-    insert(65, V);
-    insert(75, V);
-    insert(85, V);
-    insert(25, V);
-    insert(15, V);
+    // insert(75, V);
+    // insert(85, V);
+    // insert(25, V);
+    // insert(15, V);
 
-    insert(28, V);
+    // insert(28, V);
     
     showLinkedList(V, sizeVector);
+    // [4679 (219324, 349995) pt: 416839 ]
+    if(V[hash(349995)].flag != -1){
+        BinaryTree *bt = V[hash(349995)].BtsV;
 
-    if(V[hash(28)].flag != -1){
-        BinaryTree *varReturn = searchBT(V[hash(15)].BtsV , 28);
+        printf("Searching: (%d , %d)\n" , 219324 , 349995 ); 
+        BinaryTree *varReturn = searchBT(bt , btHash(219324 , 349995), 219324 , 349995);
         if(varReturn != NULL){
-            printf("\nFinded: %d\n", varReturn->value);
+            printf("\nFinded: %d (%d , %d)\n", varReturn->value , varReturn->x, varReturn->y);
         }
         else{
             printf("not finded!\n\n");

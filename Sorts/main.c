@@ -1,8 +1,8 @@
 #include "header.c"
 
 int main(){
-    int lenghtOfVector = 20000000; //150000 is the test base 2000000
-    int *V = generateVector(lenghtOfVector);
+    int lenghtOfVector = 10; //150000 is the test base 2000000
+    int *V = generateCustom(lenghtOfVector);
         
     // return 0;
     

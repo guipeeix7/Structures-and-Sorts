@@ -45,28 +45,48 @@ typedef int Item;
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#define MAXSIZE 10 
+#define MAXSIZE 2000
 
+static short int cx[8] = { -1 , 0 , 1, -1, 1, -1 , 0 , 1}; 
+static short int cy[8] = { -1, -1 ,-1 , 0, 0,  1 , 1,  1}; 
+// (-1,-1) , (0,-1) , (1, -1); 
+// (-1, 0) , (0, 0) , (1, 0); 
+// (-1, 1) , (0,+1) , (1, 1);
+
+typedef struct Game{
+    int numberOfMojins; 
+    int round; 
+}Game; 
 
 typedef struct MojinStack{
-    char areaAvaliable[8]; 
-    int x; 
-    int y; 
+    char areaAvaliable[8];  
+    long x; 
+    long y; 
     struct MojinStack *prox; 
 } MojinStack;
 
 typedef struct pQPoints{
-    int points;
-    int x; 
-    int y;  
+    long points;
+    long x; 
+    long y;  
 }pQPoints;
 
-typedef struct  mapStruct{
-    int x; 
-    int y; 
+typedef struct BinaryTree{ // THIS IS PART OF MAP STRUCTURE
+    long x; 
+    long y; 
     int state; 
-    int points; 
-}mapStruct;
+
+    long value; //The hash (:
+
+    struct BinaryTree *right; 
+    struct BinaryTree *left;
+} BinaryTree;
+
+typedef struct LinkedHash{ // THIS IS ALSO PART OF MAP STRUCTURE
+    long value; 
+    short flag; 
+    struct BinaryTree *BtsV; 
+}LinkedHash;
 
 
 typedef struct PriorityQueue
@@ -78,17 +98,25 @@ typedef struct PriorityQueue
 /**time to the big ones*/
 //BEGIN STRUCTURE TO USER ACTIONS
     MojinStack *initMojinStack(){
-        MojinStack *headNode = (MojinStack*) malloc(sizeof(MojinStack));  
+        MojinStack *headNode = (MojinStack*) malloc(sizeof(MojinStack));
+        for(int i = 0 ; i < 8 ; i++){
+            headNode->areaAvaliable[i] = '0';
+        }  
         headNode->x = 0; 
         headNode->y = 0; 
         headNode->prox = NULL; 
         return headNode; 
     }
-    void insertMojinStack(int *value, MojinStack *headNode){
+    void insertMojinStack(MojinStack *headNode, long x , long y){
         MojinStack *newNode = (MojinStack*) malloc(sizeof(MojinStack));
-        newNode->x = value[0]; 
-        newNode->y = value[1]; 
+        newNode->x = x; 
+        newNode->y = y; 
         newNode->prox = NULL; 
+        for(int i = 0 ; i < 8 ; i++){
+            newNode->areaAvaliable[i] = 0;
+        }  
+
+
         if(headNode->prox == NULL){
             headNode->prox = newNode;
             return;  
@@ -111,16 +139,17 @@ typedef struct PriorityQueue
         headNode->prox = topNode->prox; 
         free(topNode);
         return;  
-    }
+    }     
     void showMojinStack(MojinStack *headNode){
         MojinStack *temp = headNode->prox; 
         
         while(temp != NULL){
-            printf("value: %d %d\n", temp->x, temp->y);
+            printf("{x: %ld y: %ld}\n", temp->x, temp->y);
             temp = temp->prox; 
         }
         return; 
     }
+
 //END STRUCTURE TO USER ACTIONS
 
 //BEGIN of PRIORITY QUEUE POINTS  
@@ -144,132 +173,254 @@ typedef struct PriorityQueue
                 j = 2*k; 
                 if(j < n && less(V[j].points, V[j+1].points)) j++; 
                 if(!less(V[k].points, V[j].points)) break; 
-                exch(V[k].points, V[j].points); 
+
+                pQPoints aux = V[k]; 
+                V[k] = V[j];
+                V[j] = aux;
                 k = j ; 
         } 
     }
     int pQempty(PriorityQueue *pq){
         return pq->n == 0; 
     }
-    void pQinsert(PriorityQueue *pQItem, int points, int x, int y){
+    void pQinsert(PriorityQueue *pQItem, long x, long y, long points){
         pQItem->pQ[++pQItem->n].points = points;
         pQItem->pQ[pQItem->n].x = x;
         pQItem->pQ[pQItem->n].y = y;
+
+
         fixUp(pQItem->pQ, pQItem->n);
         return; 
     }
     void showInterval(int l, int r, pQPoints *pQ){
         for(int i = l ; i <= r ; i++){
             if(pQ[i].points != 0){
-                printf("%d ", pQ[i].points);
+                printf("[(%ld, %ld)  %ld]; ", pQ[i].x ,pQ[i].y, pQ[i].points);
             }
         }
         printf("\n");
     }
     int pQDelMaxPriority(PriorityQueue *pQItem){
-        exch(pQItem->pQ[1].points, pQItem->pQ[pQItem->n].points); 
+        pQPoints aux = pQItem->pQ[1]; 
+        pQItem->pQ[1] = pQItem->pQ[pQItem->n];
+        pQItem->pQ[pQItem->n] = aux;
+
+
         fixDown(pQItem->pQ, 1 , --pQItem->n);
         return pQItem->pQ[pQItem->n+1].points;
     }
 //END of PRIORITY QUEUE POINTS
 
 //BEGIN OF MAP STRUCTURE
-    int Hash(int hKey){
-        return hKey%101; 
-    }
-    typedef struct LinkedHash{
-        /* data */
-        int key; 
-        char value[102]; 
-        short flag; 
-        struct LinkedHash *prox; 
-    }LinkedHash;
-    int hKey(char *key){
-        int hKey = 0; 
-        for(int i = 0 ; key[i] != '\0' ; i++){
-            hKey+=((int) key[i]*(i+1));
-        }   
-        return Hash(19*hKey); 
-    }
-    LinkedHash *insertLinked(char *value, LinkedHash *headNode, int hkey){
-
-        LinkedHash *newNode = (LinkedHash*) malloc(sizeof(LinkedHash));
-        strcpy(headNode[hkey].value, value);
-        headNode[hkey].key = hkey;
-        newNode->prox = headNode; 
+    BinaryTree* insertBt(int btHash, long x, long y){
+        BinaryTree *newNode = (BinaryTree*) malloc(sizeof(BinaryTree));
+        newNode->right = NULL;
+        newNode->left = NULL;
+        newNode->value = btHash;
+        newNode->x = x;
+        newNode->y = y;
+        newNode->state = 0;
 
         return newNode; 
     }
-    int insert(char *value, LinkedHash *V){ 
-        int hkey = hKey(value); 
-        int inserctions = 0;
+    BinaryTree* searchAndInsertBt(BinaryTree *node,int BTHash, long x, long y){
+        if(node == NULL) return insertBt(BTHash, x, y);
+        else if(BTHash > node->value) node->right = searchAndInsertBt(node->right, BTHash, x, y);
+        else if(BTHash <= node->value ) node->left = searchAndInsertBt(node->left, BTHash, x, y);
+        return node;
+    }
+    void showBinaryTreeIn(BinaryTree *node){
+        if(node->left != NULL) showBinaryTreeIn(node->left);
+        printf("[%ld (%ld, %ld) pt: %ld ]", node->value, node->x, node->y); 
+        if(node->right != NULL) showBinaryTreeIn(node->right); 
+    }
+    void deleteTree(BinaryTree* node)
+    {
+        if (node == NULL) return;
+    
+        deleteTree(node->left);
+        deleteTree(node->right);
         
-        if(V[hkey].flag == 1){
-            return 0; 
-            // V[hkey].prox = insertLinked(value, V[hKey(value)].prox, hkey);
-        }
-        else{
-            strcpy(V[hkey].value, value); 
-            V[hkey].key = hkey;
-            V[hkey].flag = 1; 
-            return 1; 
-        }
-        // It means already used space
-
+        free(node);
+    }
+    LinkedHash *initLH(int sizeVector){
+        LinkedHash *V = (LinkedHash*) malloc((sizeVector+1)*sizeof(LinkedHash));
+        
+        for(int i = 0 ; i < sizeVector ; i++){
+            V[i].value = 0; 
+            V[i].flag = -1; 
+            V[i].BtsV = NULL; 
+        }   
+        return V; 
+    }
+    int hash(int num){
+        return (((num<0) ?-num:num)%MAXSIZE);
+    }
+    int btHash(long x, long y){
+        return ((((x<0) ?-x:x)%MAXSIZE)+(((y<0) ?-y:y)/MAXSIZE))/2; 
+        // return (((x<0) ?-x:x)%MAXSIZE + ((y<0) ?-y:y)%MAXSIZE);
     }
     int isEmptyLinkedHash(LinkedHash *headNode){
-        if(headNode->prox == NULL){
+        if(headNode->BtsV == NULL){
+            printf("LinkedHash is empty!\n");
             return 1; 
         } 
         return 0;
     }
-    int popTopLinkedHash(LinkedHash *headNode){
-        // printf("I POOPED"); 
-        int returnNum = 0; 
-        if(headNode->flag == 1 && headNode->prox == NULL){
-            headNode->flag = -1; 
-            headNode->key = -1; 
-            strcpy(headNode->value,"\0");
-            headNode->prox = NULL;
-            // return 1;
-            returnNum = 1;
-            return 1;  
+    BinaryTree* searchBT(BinaryTree *node, int value, long x, long y){ //THIS FUNTION CULD NEED A REPAIR
+        if(node == NULL) return NULL; 
+        else if(node->value == value){
+            if(node->x == x && node->y == y){
+                return node;
+            }
+            return searchBT(node->left, value, x, y);
         }
-        if(isEmptyLinkedHash(headNode)) return 0; 
-        LinkedHash *headPointer = headNode->prox; 
-
-        LinkedHash *topNode = headNode->prox; 
-        headNode->prox = topNode->prox; 
-        strcpy(headNode->value,topNode->value);
-
-        free(topNode);
-        return returnNum;
-    }
-    void showStack(LinkedHash *headNode){
-        LinkedHash *temp = headNode; 
         
-        while(temp != NULL){
-            printf(" -> %d", temp->value);
-            temp = temp->prox; 
+        else if(node->value < value) return searchBT(node->right, value, x, y);
+        else if(node->value > value) return searchBT(node->left, value, x, y);
+        return node;
+    }
+    void showLinkedList(LinkedHash *V, int size){
+        for(int i = 0 ; i < size ; i++){
+            printf("%ld: ", V[i].value);
+            if(V[i].BtsV != NULL){
+                showBinaryTreeIn(V[i].BtsV);   
+            } 
+            printf("\n");
         }
         return; 
     }
+    LinkedHash *mapInsert(LinkedHash *V, long x, long y){ 
+        if(V[hash(y)].BtsV == NULL){
+            V[hash(y)].BtsV = searchAndInsertBt(V[hash(y)].BtsV, btHash(x, y), x, y);
+        }
+        else{
+            searchAndInsertBt(V[hash(y)].BtsV, btHash(x, y) , x, y);
+        }
+        
+        if(V[hash(y)].flag == -1){
+            V[hash(y)].value = hash(y);
+        }
 
+        V[hash(y)].flag = 1; 
+
+        return V;
+    }
 //END OF MAP STRUCTURE
 
+//BEGIN OF GAME STRUCT
+    Game *gameInit(){
+        Game *gameInstance = (Game*) malloc((1)*sizeof(Game));
+        gameInstance->numberOfMojins = 0; 
+        gameInstance->round = 0;
+        return gameInstance; 
+    }
+//END OF GAME STRUCT
+
+
+/// BEGIN OF BRUTAL LOGIN
+
+    int existsInMap(LinkedHash *VMap, long x, long y){
+        // searchBT(bt , btHash(x , y), x , y);
+        if(VMap[hash(y)].flag != -1){
+            BinaryTree *bt = VMap[hash(y)].BtsV;
+            BinaryTree *varReturn = searchBT(bt , btHash(x , y), x , y);
+            if(varReturn != NULL){
+                // printf("\nFinded: %d (%d , %d)\n", varReturn->value , varReturn->x, varReturn->y);
+                return 1;
+            }
+            else{
+                // printf("not finded!\n\n");
+                return 0;
+            }
+        }
+        else{
+            return 0; 
+        }
+    }
+    int exploreSpace(LinkedHash *VMap,MojinStack *mojinsStack,PriorityQueue *VpQ,Game *gameInstance){
+        MojinStack *aux = mojinsStack->prox->prox;//Isso sempre pula o primeiro inserido, impedindo que ele domine e pesquise no mesmo turno 
+        while(aux != NULL){
+            for(int i = 0; i < 8  ; i++){
+
+                long randomizePos = (gameInstance->round+i)%8;
+
+                if(aux->areaAvaliable[randomizePos] == 0){ //I can only add into map if the area do not exist                    
+                    if(existsInMap(VMap , aux->x+cx[randomizePos],aux->y+cy[randomizePos])){
+                        aux->areaAvaliable[randomizePos] = 1;
+                        continue;
+                    }
+                    
+                    long points = 0; 
+                    char bundinha[20]; 
+                    printf("sondar %ld %ld\n", (aux->x+cx[randomizePos]), (aux->y+cy[randomizePos]));
+                    fflush(stdout);
+                    long xt, yt;
+                    scanf("%s %ld %ld %ld",bundinha, &xt, &yt, &points);
+                    mapInsert(VMap, aux->x+cx[randomizePos], aux->y+cy[randomizePos]); //Inserted the points in pq   
+                    pQinsert(VpQ, aux->x+cx[randomizePos], aux->y+cy[randomizePos], points); //Inserted the points in pq
+                    break;
+                }
+            }
+            // if(aux->areaAvaliable[7] == 1){
+            //     popTopMojinStack(mojinsStack); // NAO POSSO DAR POP NO TOPO ;-;
+            //     gameInstance->numberOfMojins--; 
+            // }
+            aux = aux->prox; 
+        }
+        return 1;
+    }
+    int dominate(MojinStack *mojinStackHead, PriorityQueue *VpQ, Game *gameInstance){
+        printf("dominar %ld %ld\n",VpQ->pQ[1].x,VpQ->pQ[1].y);        
+        fflush(stdout);
+        scanf(" %*s %*ld");
+        insertMojinStack(mojinStackHead, VpQ->pQ[1].x,VpQ->pQ[1].y);
+        gameInstance->numberOfMojins++;
+        
+        pQDelMaxPriority(VpQ); 
+        return 1; 
+    }
+/// END OF BRUTAL LOGIC
 /** End of the big ones */
 void letTheGameBegin(){
-    int x = 0, y = 0, points = 0, turns = 0;
-    scanf("%d %d %d %d", &x, &y, &points, &turns);
+    PriorityQueue *VpQ = pQInit(80000);
+    LinkedHash *VMap = initLH(MAXSIZE);
+    MojinStack *mojinStackHead = initMojinStack();
+    Game *gameInstance = gameInit();
+
+    long x = 0, y = 0, points = 0, turns = 0;
+    scanf("%ld %ld %ld %ld",&x,&y,&points,&turns);
+    
+    mapInsert(VMap, x, y); //Inserted the points in map
+    insertMojinStack(mojinStackHead, x,y);
+    
+    printf("sondar %ld %ld\n", x-1, y-1);
+    fflush(stdout);
+    char text[20]; 
+    scanf("%s %ld %ld %ld", text, &x, &y , &points);
+
+    mapInsert(VMap, x, y); //Inserted the points in map
+    pQinsert(VpQ, x, y, points); //Inserted the points in pq
+    //Turn 0 
+
+    printf("fimturno\n");
     fflush(stdout);
 
-    PriorityQueue *VpQ = pQInit(1000);
-    pQinsert(VpQ, points, x, y); 
-    
-       
-    showInterval(0, VpQ->n, VpQ->pQ); 
+    turns--;
 
 
+    while(turns--){
+        gameInstance->round++;
+        
+        dominate(mojinStackHead,VpQ, gameInstance);
+        exploreSpace(VMap, mojinStackHead, VpQ, gameInstance);
+        printf("fimturno\n");
+        
+        fflush(stdout);
+    }
+
+
+    // printf("\n%d\n",gameInstance->numberOfMojins);
     return; 
 }
 

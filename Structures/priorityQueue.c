@@ -15,7 +15,7 @@ typedef struct PriorityQueue
 } PriorityQueue;
 
 PriorityQueue *pQInit(int size){
-    PriorityQueue *pQItem = (PriorityQueue *) malloc((size+1)*sizeof(PriorityQueue));
+    PriorityQueue *pQItem = (PriorityQueue *) malloc(sizeof(PriorityQueue));
     pQItem->pQ = (Item *) malloc((size+1)*sizeof(Item));
     pQItem->n = 0;
     return pQItem; 

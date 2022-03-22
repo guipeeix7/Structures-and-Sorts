@@ -55,3 +55,14 @@ int showVectorIntervals(int *vector, int begin,int end){
     printf("]\n");
     return 0;
 }
+
+
+// int value, int x, int y, int points
+int *generateCustom(int sizeVector){
+    int *vector = (int*)  malloc((sizeVector+1)*sizeof(int));
+    for(int i = 0 ; i <= sizeVector ; i++){
+        // vector[i] = (1 + rand() % (sizeVector+1000));
+        printf("sondagem %d %d %d\n", (1 + rand() % (sizeVector+1000)), (1 + rand() % (sizeVector+1000)), (1 + rand() % (sizeVector+1000)));
+    }
+    return vector;
+}

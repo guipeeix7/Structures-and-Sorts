@@ -1,0 +1,4693 @@
+sondar 4 4
+fimturno
+dominar 4 4
+sondar 5 4
+fimturno
+dominar 5 4
+sondar 5 3
+sondar 6 4
+fimturno
+dominar 5 3
+sondar 4 5
+sondar 3 4
+sondar 6 5
+fimturno
+dominar 6 4
+sondar 6 3
+sondar 4 3
+sondar 3 5
+sondar 4 6
+fimturno
+dominar 6 5
+sondar 7 5
+sondar 4 2
+sondar 3 3
+sondar 5 6
+fimturno
+dominar 4 6
+sondar 6 6
+sondar 7 3
+sondar 5 2
+fimturno
+dominar 5 6
+sondar 5 7
+sondar 7 6
+sondar 7 4
+sondar 6 2
+fimturno
+dominar 5 2
+sondar 4 7
+sondar 3 6
+fimturno
+dominar 6 2
+sondar 5 1
+sondar 6 7
+sondar 3 7
+fimturno
+dominar 3 6
+sondar 7 1
+sondar 6 1
+fimturno
+dominar 3 7
+sondar 2 6
+sondar 7 2
+sondar 4 1
+fimturno
+dominar 6 1
+sondar 2 8
+sondar 2 7
+DELETEDfimturno
+dominar 4 1
+sondar 5 0
+sondar 3 8
+sondar 2 5
+fimturno
+dominar 2 7
+sondar 3 0
+sondar 6 0
+sondar 4 8
+fimturno
+dominar 2 5
+sondar 1 6
+sondar 4 0
+sondar 7 0
+fimturno
+dominar 4 8
+sondar 1 4
+sondar 1 7
+sondar 3 1
+fimturno
+dominar 7 0
+sondar 5 8
+sondar 2 4
+sondar 1 8
+sondar 3 2
+fimturno
+dominar 3 1
+sondar 8 -1
+sondar 3 9
+sondar 1 5
+fimturno
+dominar 3 2
+sondar 2 1
+sondar 8 0
+sondar 4 9
+DELETEDfimturno
+dominar 1 5
+sondar 2 3
+sondar 2 2
+sondar 8 1
+sondar 5 9
+fimturno
+dominar 4 9
+sondar 0 6
+DELETEDsondar 2 0
+sondar 6 -1
+fimturno
+dominar 5 9
+sondar 4 10
+sondar 0 4
+sondar 7 -1
+fimturno
+dominar 6 -1
+sondar 6 10
+sondar 5 10
+sondar 0 5
+fimturno
+dominar 7 -1
+sondar 5 -2
+sondar 6 8
+sondar 3 10
+fimturno
+dominar 0 5
+sondar 7 -2
+sondar 6 -2
+sondar 6 9
+fimturno
+dominar 3 10
+sondar -1 5
+sondar 8 -2
+sondar 5 -1
+fimturno
+dominar 6 9
+sondar 2 10
+sondar -1 6
+DELETEDfimturno
+dominar 5 -1
+sondar 7 9
+sondar 2 11
+sondar -1 4
+fimturno
+dominar -1 6
+sondar 4 -2
+sondar 7 10
+sondar 3 11
+fimturno
+dominar -1 4
+sondar -1 7
+sondar 4 -1
+sondar 7 8
+sondar 4 11
+fimturno
+dominar 3 11
+sondar -2 3
+sondar 0 7
+sondar 2 9
+fimturno
+dominar 4 11
+sondar 2 12
+sondar -1 3
+sondar -2 5
+fimturno
+dominar 2 9
+sondar 5 11
+sondar 3 12
+sondar 0 3
+sondar -2 6
+fimturno
+dominar -2 5
+sondar 1 9
+sondar 4 12
+sondar -2 4
+sondar -2 7
+fimturno
+dominar -2 6
+sondar -3 5
+sondar 1 10
+sondar 5 12
+fimturno
+dominar -2 7
+sondar -3 7
+sondar -3 6
+fimturno
+dominar 5 12
+sondar -3 8
+DELETEDsondar -3 4
+fimturno
+dominar -3 6
+sondar 5 13
+sondar -2 8
+fimturno
+dominar -3 4
+sondar -4 5
+sondar 6 13
+sondar -1 8
+fimturno
+dominar -2 8
+sondar -4 3
+sondar -4 6
+sondar 6 11
+fimturno
+dominar -1 8
+sondar -3 9
+sondar -3 3
+sondar -4 7
+sondar 6 12
+fimturno
+dominar 6 11
+sondar 0 8
+sondar -2 9
+sondar -4 4
+sondar 4 13
+fimturno
+dominar 6 12
+sondar 7 11
+sondar -1 9
+DELETEDfimturno
+dominar 4 13
+sondar 7 12
+DELETEDsondar 0 9
+fimturno
+dominar -1 9
+sondar 3 14
+sondar 7 13
+fimturno
+dominar 0 9
+sondar -1 10
+sondar 4 14
+fimturno
+dominar 7 13
+sondar 0 10
+DELETEDsondar -2 10
+sondar 5 14
+fimturno
+dominar 4 14
+sondar 8 12
+sondar 3 13
+fimturno
+dominar 5 14
+sondar 3 15
+sondar 8 13
+fimturno
+dominar 3 13
+sondar 6 14
+sondar 4 15
+sondar 7 14
+fimturno
+dominar 8 13
+sondar 2 13
+sondar 5 15
+sondar 8 14
+fimturno
+dominar 7 14
+sondar 9 13
+sondar 2 14
+sondar 6 15
+fimturno
+dominar 8 14
+sondar 7 15
+sondar 9 14
+DELETEDfimturno
+dominar 6 15
+sondar 8 15
+DELETEDsondar 9 12
+fimturno
+dominar 9 14
+sondar 7 16
+sondar 9 15
+fimturno
+dominar 9 12
+sondar 10 13
+sondar 5 16
+fimturno
+dominar 9 15
+sondar 9 11
+sondar 10 14
+sondar 6 16
+fimturno
+dominar 5 16
+sondar 10 15
+sondar 10 11
+fimturno
+dominar 6 16
+sondar 4 16
+sondar 8 16
+sondar 10 12
+fimturno
+dominar 10 11
+sondar 5 17
+sondar 4 17
+sondar 9 16
+sondar 8 11
+fimturno
+dominar 10 12
+sondar 11 12
+sondar 6 17
+DELETEDsondar 10 16
+fimturno
+dominar 8 11
+sondar 11 13
+sondar 9 10
+sondar 7 17
+fimturno
+dominar 10 16
+sondar 8 10
+sondar 11 11
+sondar 10 10
+fimturno
+dominar 7 17
+sondar 11 15
+sondar 11 10
+fimturno
+dominar 10 10
+sondar 8 17
+sondar 11 16
+fimturno
+dominar 11 10
+sondar 11 9
+sondar 6 18
+sondar 9 17
+fimturno
+dominar 11 16
+sondar 12 10
+sondar 9 9
+sondar 7 18
+sondar 10 17
+fimturno
+dominar 9 17
+sondar 12 16
+sondar 12 11
+sondar 10 9
+sondar 8 18
+sondar 11 17
+fimturno
+dominar 10 17
+sondar 9 18
+sondar 12 17
+sondar 12 9
+fimturno
+dominar 11 17
+sondar 10 18
+DELETEDsondar 12 15
+fimturno
+dominar 12 9
+sondar 12 18
+sondar 11 18
+fimturno
+dominar 12 15
+sondar 11 8
+fimturno
+dominar 11 18
+sondar 12 14
+sondar 12 8
+fimturno
+dominar 11 8
+sondar 10 19
+sondar 13 14
+sondar 13 8
+fimturno
+dominar 12 8
+sondar 10 8
+sondar 11 19
+sondar 13 15
+sondar 13 9
+fimturno
+dominar 13 8
+sondar 11 7
+sondar 10 7
+sondar 12 19
+sondar 13 16
+sondar 13 10
+fimturno
+dominar 13 9
+sondar 14 9
+sondar 12 7
+sondar 11 14
+fimturno
+dominar 13 10
+sondar 14 10
+sondar 13 7
+fimturno
+dominar 11 14
+sondar 14 11
+sondar 14 8
+sondar 14 7
+fimturno
+dominar 13 7
+sondar 12 13
+sondar 13 11
+fimturno
+dominar 14 7
+sondar 13 6
+fimturno
+dominar 13 11
+sondar 15 6
+sondar 14 6
+fimturno
+dominar 13 6
+sondar 12 12
+sondar 15 7
+sondar 12 6
+fimturno
+dominar 14 6
+sondar 12 5
+sondar 13 12
+sondar 15 8
+fimturno
+dominar 12 6
+sondar 13 5
+sondar 14 5
+sondar 14 12
+fimturno
+dominar 15 8
+sondar 11 5
+sondar 15 5
+fimturno
+dominar 14 12
+sondar 16 9
+sondar 11 6
+fimturno
+dominar 15 5
+sondar 15 11
+sondar 16 7
+fimturno
+dominar 11 6
+sondar 15 4
+sondar 15 12
+sondar 16 8
+fimturno
+dominar 16 7
+sondar 10 6
+sondar 16 4
+sondar 13 13
+sondar 15 9
+fimturno
+dominar 16 8
+sondar 17 7
+sondar 10 5
+sondar 16 5
+sondar 14 13
+fimturno
+dominar 15 9
+sondar 17 8
+sondar 16 6
+sondar 14 4
+sondar 15 13
+fimturno
+dominar 14 13
+sondar 15 10
+sondar 17 9
+sondar 17 6
+fimturno
+dominar 15 13
+sondar 14 14
+sondar 16 10
+fimturno
+dominar 17 6
+sondar 16 14
+sondar 15 14
+fimturno
+dominar 16 10
+sondar 17 5
+sondar 16 12
+fimturno
+dominar 15 14
+sondar 17 10
+sondar 18 5
+sondar 16 13
+fimturno
+dominar 16 12
+sondar 14 15
+sondar 16 11
+sondar 18 6
+fimturno
+dominar 16 13
+sondar 17 12
+sondar 15 15
+sondar 17 11
+sondar 18 7
+fimturno
+dominar 18 6
+sondar 17 13
+DELETEDsondar 16 15
+fimturno
+dominar 18 7
+sondar 19 7
+sondar 17 14
+fimturno
+dominar 16 15
+sondar 18 8
+sondar 19 5
+fimturno
+dominar 17 14
+sondar 17 16
+sondar 19 8
+sondar 19 6
+fimturno
+dominar 19 5
+sondar 18 13
+sondar 17 15
+fimturno
+dominar 19 6
+sondar 19 4
+sondar 18 14
+sondar 15 16
+fimturno
+dominar 17 15
+sondar 20 5
+sondar 20 4
+sondar 18 15
+sondar 16 16
+fimturno
+dominar 15 16
+sondar 18 16
+sondar 20 6
+sondar 18 4
+fimturno
+dominar 16 16
+sondar 14 17
+sondar 20 7
+fimturno
+dominar 18 4
+sondar 15 17
+sondar 16 17
+fimturno
+dominar 20 7
+sondar 17 3
+sondar 17 17
+sondar 14 16
+fimturno
+dominar 16 17
+sondar 21 8
+sondar 18 3
+DELETEDfimturno
+dominar 14 16
+sondar 15 18
+sondar 21 6
+sondar 19 3
+fimturno
+dominar 18 3
+sondar 13 17
+sondar 16 18
+sondar 21 7
+sondar 17 4
+fimturno
+dominar 19 3
+sondar 19 2
+sondar 17 18
+sondar 20 8
+fimturno
+dominar 17 4
+sondar 20 3
+sondar 17 2
+fimturno
+dominar 20 8
+sondar 16 3
+sondar 18 2
+fimturno
+dominar 17 2
+sondar 19 9
+sondar 20 2
+fimturno
+dominar 18 2
+sondar 16 1
+sondar 20 9
+fimturno
+dominar 20 2
+sondar 17 1
+sondar 18 1
+sondar 21 9
+fimturno
+dominar 20 9
+sondar 19 1
+DELETEDsondar 16 2
+fimturno
+dominar 21 9
+sondar 19 10
+sondar 20 1
+fimturno
+dominar 16 2
+sondar 22 8
+sondar 20 10
+sondar 21 1
+fimturno
+dominar 20 1
+sondar 15 2
+sondar 22 9
+sondar 21 10
+sondar 21 2
+fimturno
+dominar 21 1
+sondar 19 0
+sondar 15 3
+sondar 22 10
+sondar 21 3
+fimturno
+dominar 21 2
+sondar 22 2
+sondar 20 0
+sondar 15 1
+fimturno
+dominar 21 3
+sondar 22 3
+sondar 21 0
+fimturno
+dominar 15 1
+sondar 22 4
+sondar 22 1
+sondar 22 0
+fimturno
+dominar 21 0
+sondar 14 0
+sondar 21 4
+fimturno
+dominar 22 0
+sondar 21 -1
+sondar 15 0
+fimturno
+dominar 21 4
+sondar 23 -1
+sondar 22 -1
+sondar 16 0
+fimturno
+dominar 15 0
+sondar 21 5
+sondar 23 0
+sondar 20 -1
+sondar 14 1
+fimturno
+dominar 16 0
+sondar 14 -1
+sondar 22 5
+sondar 23 1
+sondar 14 2
+fimturno
+dominar 14 1
+sondar 15 -1
+sondar 16 -1
+DELETEDfimturno
+dominar 14 2
+sondar 13 0
+sondar 17 -1
+fimturno
+dominar 16 -1
+sondar 13 1
+sondar 13 2
+sondar 17 0
+fimturno
+dominar 17 -1
+sondar 15 -2
+sondar 13 3
+fimturno
+dominar 17 0
+sondar 17 -2
+sondar 16 -2
+sondar 14 3
+fimturno
+dominar 13 3
+sondar 18 -1
+sondar 18 -2
+fimturno
+dominar 14 3
+sondar 12 3
+sondar 18 0
+fimturno
+dominar 18 -2
+sondar 13 4
+sondar 12 4
+DELETEDfimturno
+dominar 18 0
+sondar 19 -1
+DELETEDsondar 12 2
+fimturno
+dominar 12 4
+sondar 17 -3
+fimturno
+dominar 12 2
+sondar 11 3
+sondar 18 -3
+fimturno
+dominar 17 -3
+sondar 11 1
+sondar 11 4
+sondar 19 -3
+fimturno
+dominar 18 -3
+sondar 17 -4
+sondar 12 1
+sondar 19 -2
+fimturno
+dominar 19 -3
+sondar 19 -4
+sondar 18 -4
+sondar 11 2
+fimturno
+dominar 19 -2
+sondar 20 -3
+sondar 16 -3
+DELETEDfimturno
+dominar 11 2
+sondar 20 -2
+sondar 20 -4
+sondar 16 -4
+fimturno
+dominar 16 -3
+sondar 10 3
+fimturno
+dominar 16 -4
+sondar 15 -4
+sondar 10 1
+fimturno
+dominar 10 3
+sondar 15 -5
+sondar 15 -3
+sondar 10 2
+fimturno
+dominar 10 1
+sondar 9 2
+sondar 16 -5
+fimturno
+dominar 10 2
+sondar 10 0
+sondar 9 3
+sondar 17 -5
+fimturno
+dominar 16 -5
+sondar 9 1
+sondar 11 0
+sondar 9 4
+fimturno
+dominar 17 -5
+sondar 15 -6
+sondar 9 0
+sondar 10 4
+fimturno
+dominar 9 4
+sondar 18 -5
+sondar 16 -6
+fimturno
+dominar 10 4
+sondar 8 5
+sondar 17 -6
+fimturno
+dominar 16 -6
+sondar 9 5
+DELETEDsondar 8 3
+sondar 18 -6
+fimturno
+dominar 17 -6
+sondar 15 -7
+sondar 8 4
+fimturno
+dominar 18 -6
+sondar 16 -7
+sondar 17 -7
+fimturno
+dominar 8 4
+sondar 18 -7
+fimturno
+dominar 17 -7
+sondar 19 -7
+fimturno
+dominar 18 -7
+sondar 16 -8
+sondar 19 -6
+fimturno
+dominar 19 -7
+sondar 17 -8
+sondar 18 -8
+sondar 19 -5
+fimturno
+dominar 19 -6
+sondar 20 -6
+sondar 19 -8
+fimturno
+dominar 19 -5
+sondar 20 -5
+sondar 20 -8
+fimturno
+dominar 19 -8
+sondar 20 -7
+fimturno
+dominar 20 -8
+sondar 18 -9
+fimturno
+dominar 20 -7
+sondar 20 -9
+sondar 19 -9
+fimturno
+dominar 18 -9
+sondar 21 -8
+sondar 21 -9
+fimturno
+dominar 19 -9
+sondar 17 -9
+sondar 21 -7
+fimturno
+dominar 21 -9
+sondar 18 -10
+sondar 17 -10
+sondar 21 -6
+fimturno
+dominar 21 -7
+sondar 22 -8
+sondar 19 -10
+fimturno
+dominar 21 -6
+sondar 22 -6
+sondar 20 -10
+fimturno
+dominar 19 -10
+sondar 22 -5
+sondar 22 -7
+sondar 21 -10
+fimturno
+dominar 20 -10
+sondar 18 -11
+sondar 21 -5
+sondar 22 -10
+fimturno
+dominar 21 -10
+sondar 20 -11
+sondar 19 -11
+sondar 22 -9
+fimturno
+dominar 22 -10
+sondar 22 -11
+sondar 21 -11
+fimturno
+dominar 22 -9
+sondar 23 -10
+fimturno
+dominar 21 -11
+sondar 23 -9
+sondar 23 -11
+fimturno
+dominar 23 -10
+sondar 20 -12
+sondar 23 -8
+fimturno
+dominar 23 -11
+sondar 24 -9
+sondar 21 -12
+fimturno
+dominar 23 -8
+sondar 24 -10
+sondar 24 -11
+sondar 22 -12
+fimturno
+dominar 21 -12
+sondar 24 -8
+sondar 23 -12
+fimturno
+dominar 22 -12
+sondar 21 -13
+sondar 23 -7
+sondar 24 -12
+fimturno
+dominar 23 -12
+sondar 23 -13
+sondar 22 -13
+sondar 24 -7
+fimturno
+dominar 24 -12
+sondar 24 -13
+DELETEDsondar 20 -13
+fimturno
+dominar 24 -7
+sondar 25 -12
+fimturno
+dominar 20 -13
+sondar 23 -6
+sondar 25 -11
+fimturno
+dominar 25 -12
+sondar 19 -14
+sondar 24 -6
+sondar 25 -13
+fimturno
+dominar 25 -11
+sondar 26 -11
+sondar 20 -14
+sondar 25 -6
+fimturno
+dominar 25 -13
+sondar 26 -12
+sondar 26 -13
+sondar 21 -14
+sondar 25 -8
+fimturno
+dominar 25 -6
+sondar 25 -14
+sondar 25 -10
+sondar 19 -13
+sondar 25 -7
+fimturno
+dominar 25 -8
+sondar 26 -7
+sondar 26 -14
+sondar 26 -10
+sondar 19 -12
+fimturno
+dominar 25 -7
+sondar 26 -8
+sondar 26 -6
+sondar 24 -14
+fimturno
+dominar 19 -12
+sondar 25 -9
+sondar 24 -5
+fimturno
+dominar 24 -14
+sondar 18 -13
+sondar 26 -9
+sondar 25 -5
+fimturno
+dominar 24 -5
+sondar 23 -15
+sondar 18 -12
+sondar 26 -5
+fimturno
+dominar 25 -5
+sondar 25 -4
+sondar 24 -15
+fimturno
+dominar 26 -5
+sondar 24 -4
+sondar 23 -5
+sondar 25 -15
+fimturno
+dominar 24 -15
+sondar 27 -6
+sondar 26 -4
+sondar 23 -4
+sondar 23 -14
+fimturno
+dominar 25 -15
+sondar 25 -16
+sondar 27 -5
+fimturno
+dominar 23 -14
+sondar 26 -15
+sondar 23 -16
+sondar 27 -4
+fimturno
+dominar 27 -5
+sondar 22 -15
+sondar 24 -16
+fimturno
+dominar 27 -4
+sondar 28 -4
+sondar 22 -14
+sondar 26 -16
+fimturno
+dominar 24 -16
+sondar 27 -3
+sondar 28 -6
+fimturno
+dominar 26 -16
+sondar 23 -17
+sondar 28 -3
+sondar 28 -5
+fimturno
+dominar 28 -6
+sondar 25 -17
+sondar 24 -17
+sondar 26 -3
+fimturno
+dominar 28 -5
+sondar 28 -7
+sondar 26 -17
+fimturno
+dominar 26 -3
+sondar 29 -6
+sondar 29 -7
+sondar 27 -17
+fimturno
+dominar 26 -17
+sondar 25 -3
+sondar 29 -5
+sondar 27 -7
+sondar 27 -16
+fimturno
+dominar 27 -17
+sondar 25 -18
+sondar 25 -2
+sondar 29 -4
+sondar 27 -15
+fimturno
+dominar 27 -16
+sondar 28 -16
+sondar 26 -18
+sondar 26 -2
+fimturno
+dominar 27 -15
+sondar 28 -15
+sondar 27 -18
+sondar 27 -2
+fimturno
+dominar 26 -2
+sondar 28 -14
+sondar 28 -17
+sondar 28 -18
+fimturno
+dominar 27 -2
+sondar 25 -1
+sondar 27 -14
+fimturno
+dominar 28 -18
+sondar 28 -2
+sondar 26 -1
+fimturno
+dominar 27 -14
+sondar 29 -19
+sondar 27 -1
+fimturno
+dominar 26 -1
+sondar 27 -13
+sondar 29 -18
+sondar 28 -1
+fimturno
+dominar 27 -1
+sondar 25 0
+sondar 28 -13
+sondar 29 -17
+fimturno
+dominar 28 -1
+sondar 26 0
+sondar 27 0
+sondar 27 -19
+fimturno
+dominar 29 -17
+sondar 28 0
+sondar 28 -19
+fimturno
+dominar 27 -19
+sondar 30 -16
+sondar 29 0
+fimturno
+dominar 28 -19
+sondar 26 -20
+sondar 30 -18
+sondar 29 -2
+fimturno
+dominar 29 0
+sondar 28 -20
+sondar 27 -20
+sondar 30 -17
+sondar 29 -1
+fimturno
+dominar 29 -2
+sondar 30 -1
+sondar 29 -20
+sondar 26 -19
+sondar 29 -16
+fimturno
+dominar 29 -1
+sondar 30 -2
+sondar 30 0
+DELETEDfimturno
+dominar 29 -16
+sondar 29 -3
+sondar 28 1
+fimturno
+dominar 30 0
+sondar 29 -15
+sondar 30 -3
+sondar 29 1
+fimturno
+dominar 28 1
+sondar 30 1
+sondar 30 -15
+fimturno
+dominar 29 1
+sondar 29 2
+sondar 31 1
+fimturno
+dominar 30 -15
+sondar 28 2
+sondar 27 1
+sondar 31 -1
+fimturno
+dominar 31 1
+sondar 31 -16
+sondar 30 2
+sondar 27 2
+sondar 31 0
+fimturno
+dominar 31 -1
+sondar 32 0
+sondar 31 -15
+fimturno
+dominar 31 0
+sondar 32 -1
+sondar 32 1
+sondar 29 -14
+fimturno
+dominar 31 -15
+sondar 31 -2
+sondar 31 2
+sondar 30 -14
+fimturno
+dominar 29 -14
+sondar 31 -14
+sondar 32 -2
+sondar 32 2
+fimturno
+dominar 30 -14
+sondar 29 -13
+sondar 32 -14
+fimturno
+dominar 32 2
+sondar 31 -13
+sondar 30 -13
+sondar 32 -16
+fimturno
+dominar 32 -14
+sondar 33 1
+sondar 32 -15
+fimturno
+dominar 32 -16
+sondar 33 -15
+sondar 33 2
+fimturno
+dominar 32 -15
+sondar 33 -17
+sondar 33 -14
+sondar 31 3
+fimturno
+dominar 33 2
+sondar 33 -16
+DELETEDsondar 31 -17
+sondar 32 -13
+sondar 32 3
+fimturno
+dominar 31 3
+sondar 34 2
+sondar 32 -17
+sondar 33 -13
+sondar 33 3
+fimturno
+dominar 32 3
+sondar 30 4
+sondar 34 3
+fimturno
+dominar 33 3
+sondar 32 4
+sondar 31 4
+sondar 34 1
+fimturno
+dominar 34 3
+sondar 34 4
+sondar 33 4
+sondar 30 3
+fimturno
+dominar 34 1
+sondar 35 2
+fimturno
+dominar 30 3
+sondar 34 0
+sondar 35 3
+fimturno
+dominar 35 2
+sondar 29 3
+sondar 35 0
+sondar 35 4
+fimturno
+dominar 35 3
+sondar 36 2
+sondar 29 4
+sondar 35 1
+fimturno
+dominar 35 4
+sondar 36 3
+sondar 36 1
+sondar 33 0
+fimturno
+dominar 35 1
+sondar 34 5
+sondar 36 4
+fimturno
+dominar 33 0
+sondar 36 0
+sondar 35 5
+fimturno
+dominar 36 4
+sondar 33 -1
+sondar 36 5
+fimturno
+dominar 35 5
+sondar 37 3
+sondar 34 -1
+fimturno
+dominar 36 5
+sondar 34 6
+sondar 37 4
+fimturno
+dominar 34 -1
+sondar 37 5
+sondar 35 6
+fimturno
+dominar 37 4
+sondar 35 -1
+sondar 36 6
+fimturno
+dominar 35 6
+sondar 38 4
+sondar 33 -2
+sondar 37 6
+fimturno
+dominar 36 6
+sondar 34 7
+sondar 38 5
+sondar 34 -2
+fimturno
+dominar 37 6
+sondar 36 7
+sondar 35 7
+sondar 38 3
+sondar 35 -2
+fimturno
+dominar 34 -2
+sondar 38 7
+sondar 37 7
+fimturno
+dominar 35 -2
+sondar 33 -3
+sondar 38 6
+fimturno
+dominar 37 7
+sondar 35 -3
+sondar 34 -3
+fimturno
+dominar 38 6
+sondar 36 8
+sondar 36 -3
+fimturno
+dominar 34 -3
+sondar 39 6
+sondar 37 8
+sondar 36 -2
+fimturno
+dominar 36 -3
+sondar 33 -4
+sondar 39 7
+sondar 38 8
+sondar 36 -1
+fimturno
+dominar 36 -2
+sondar 37 -2
+sondar 34 -4
+sondar 39 5
+fimturno
+dominar 36 -1
+sondar 37 -1
+sondar 35 -4
+fimturno
+dominar 39 5
+sondar 37 0
+sondar 37 -3
+sondar 36 -4
+fimturno
+dominar 35 -4
+sondar 39 4
+sondar 37 -4
+fimturno
+dominar 36 -4
+sondar 35 -5
+sondar 40 4
+fimturno
+dominar 37 -4
+sondar 37 -5
+sondar 36 -5
+sondar 40 5
+fimturno
+dominar 40 4
+sondar 38 -4
+sondar 34 -5
+sondar 40 6
+fimturno
+dominar 40 5
+sondar 41 4
+sondar 38 -3
+fimturno
+dominar 40 6
+sondar 41 6
+sondar 41 5
+sondar 38 -5
+fimturno
+dominar 38 -3
+sondar 40 7
+sondar 39 3
+fimturno
+dominar 38 -5
+sondar 39 -2
+sondar 41 7
+sondar 40 3
+fimturno
+dominar 39 3
+sondar 37 -6
+sondar 39 -4
+sondar 41 3
+fimturno
+dominar 40 3
+sondar 39 2
+sondar 38 -6
+sondar 39 -3
+fimturno
+dominar 41 3
+sondar 41 2
+sondar 40 2
+sondar 39 -6
+sondar 38 -2
+fimturno
+dominar 39 -3
+sondar 42 3
+sondar 38 2
+sondar 39 -5
+fimturno
+dominar 38 -2
+sondar 40 -3
+sondar 42 4
+DELETEDfimturno
+dominar 39 -5
+sondar 38 -1
+sondar 40 -2
+sondar 42 2
+fimturno
+dominar 42 4
+sondar 40 -4
+sondar 39 -1
+fimturno
+dominar 42 2
+sondar 43 5
+sondar 40 -6
+fimturno
+dominar 39 -1
+sondar 41 1
+sondar 43 3
+sondar 40 -5
+fimturno
+dominar 40 -6
+sondar 40 -1
+sondar 42 1
+sondar 43 4
+fimturno
+dominar 40 -5
+sondar 41 -7
+sondar 38 0
+sondar 43 1
+sondar 42 5
+fimturno
+dominar 43 4
+sondar 41 -5
+sondar 41 -6
+sondar 39 0
+sondar 43 2
+fimturno
+dominar 42 5
+sondar 44 4
+sondar 41 -4
+sondar 39 -7
+sondar 40 0
+DELETEDfimturno
+dominar 43 2
+sondar 42 6
+sondar 44 5
+sondar 40 -7
+fimturno
+dominar 40 0
+sondar 44 3
+sondar 43 6
+fimturno
+dominar 40 -7
+sondar 41 -1
+sondar 44 1
+fimturno
+dominar 43 6
+sondar 39 -8
+sondar 41 0
+sondar 44 2
+fimturno
+dominar 44 1
+sondar 44 6
+sondar 40 -8
+sondar 39 1
+fimturno
+dominar 44 2
+sondar 45 0
+sondar 42 7
+sondar 41 -8
+sondar 40 1
+fimturno
+dominar 39 1
+sondar 45 2
+sondar 45 1
+sondar 43 7
+fimturno
+dominar 40 1
+sondar 38 1
+DELETEDsondar 45 3
+sondar 43 0
+sondar 44 7
+fimturno
+dominar 43 7
+sondar 44 0
+fimturno
+dominar 44 7
+sondar 43 8
+fimturno
+dominar 44 0
+sondar 45 8
+sondar 44 8
+fimturno
+dominar 43 8
+sondar 43 -1
+sondar 45 6
+sondar 42 8
+fimturno
+dominar 44 8
+sondar 42 9
+sondar 44 -1
+sondar 45 7
+fimturno
+dominar 42 8
+sondar 43 9
+sondar 44 9
+sondar 45 -1
+fimturno
+dominar 45 7
+sondar 41 8
+sondar 45 9
+fimturno
+dominar 45 -1
+sondar 46 7
+sondar 41 9
+fimturno
+dominar 45 9
+sondar 46 0
+sondar 46 8
+DELETEDfimturno
+dominar 41 9
+sondar 45 10
+sondar 44 -2
+sondar 46 6
+fimturno
+dominar 46 8
+sondar 42 10
+sondar 46 10
+sondar 45 -2
+fimturno
+dominar 46 6
+sondar 47 7
+sondar 40 8
+sondar 46 9
+sondar 46 -2
+fimturno
+dominar 45 -2
+sondar 46 5
+sondar 47 8
+sondar 40 9
+sondar 44 10
+sondar 46 -1
+fimturno
+dominar 46 -2
+sondar 46 -3
+sondar 47 5
+sondar 47 9
+sondar 40 10
+fimturno
+dominar 46 -1
+sondar 47 -2
+sondar 44 -3
+sondar 47 6
+sondar 41 10
+fimturno
+dominar 40 10
+sondar 47 -1
+sondar 45 -3
+sondar 45 5
+fimturno
+dominar 41 10
+sondar 39 11
+sondar 47 0
+sondar 47 -3
+fimturno
+dominar 45 5
+sondar 41 11
+sondar 40 11
+fimturno
+dominar 47 -3
+sondar 45 4
+sondar 42 11
+sondar 39 9
+fimturno
+dominar 40 11
+sondar 46 -4
+sondar 46 4
+sondar 39 10
+fimturno
+dominar 39 9
+sondar 39 12
+sondar 47 -4
+fimturno
+dominar 39 10
+sondar 38 9
+sondar 40 12
+sondar 48 -4
+fimturno
+dominar 47 -4
+sondar 38 10
+sondar 39 8
+sondar 41 12
+sondar 48 -3
+fimturno
+dominar 48 -4
+sondar 46 -5
+sondar 38 11
+sondar 48 -2
+fimturno
+dominar 48 -3
+sondar 49 -3
+sondar 47 -5
+DELETEDfimturno
+dominar 48 -2
+sondar 49 -2
+sondar 48 -5
+fimturno
+dominar 47 -5
+sondar 49 -1
+sondar 49 -4
+sondar 49 -5
+fimturno
+dominar 48 -5
+sondar 46 -6
+sondar 48 -1
+fimturno
+dominar 49 -5
+sondar 48 -6
+sondar 47 -6
+fimturno
+dominar 48 -1
+sondar 50 -6
+sondar 49 -6
+fimturno
+dominar 47 -6
+sondar 48 0
+sondar 50 -5
+fimturno
+dominar 49 -6
+sondar 46 -7
+sondar 49 0
+sondar 50 -4
+fimturno
+dominar 50 -5
+sondar 48 -7
+sondar 47 -7
+fimturno
+dominar 50 -4
+sondar 51 -4
+sondar 49 -7
+fimturno
+dominar 47 -7
+sondar 51 -3
+sondar 51 -6
+sondar 50 -7
+fimturno
+dominar 49 -7
+sondar 46 -8
+sondar 51 -5
+fimturno
+dominar 50 -7
+sondar 49 -8
+sondar 47 -8
+sondar 50 -3
+fimturno
+dominar 51 -5
+sondar 51 -8
+sondar 50 -8
+sondar 48 -8
+fimturno
+dominar 50 -3
+sondar 52 -5
+sondar 51 -7
+fimturno
+dominar 48 -8
+sondar 50 -2
+sondar 52 -4
+DELETEDfimturno
+dominar 51 -7
+sondar 47 -9
+sondar 51 -2
+sondar 52 -6
+fimturno
+dominar 52 -4
+sondar 52 -8
+sondar 48 -9
+fimturno
+dominar 52 -6
+sondar 53 -3
+sondar 52 -7
+sondar 49 -9
+fimturno
+dominar 48 -9
+sondar 53 -7
+sondar 53 -5
+fimturno
+dominar 49 -9
+sondar 48 -10
+sondar 53 -6
+sondar 53 -4
+fimturno
+dominar 53 -5
+sondar 50 -10
+sondar 49 -10
+sondar 52 -3
+fimturno
+dominar 53 -4
+sondar 54 -5
+sondar 50 -9
+sondar 47 -10
+fimturno
+dominar 52 -3
+sondar 54 -4
+sondar 54 -6
+DELETEDfimturno
+dominar 47 -10
+sondar 52 -2
+sondar 54 -3
+fimturno
+dominar 54 -6
+sondar 46 -11
+sondar 53 -2
+fimturno
+dominar 54 -3
+sondar 55 -5
+sondar 47 -11
+fimturno
+dominar 53 -2
+sondar 55 -4
+sondar 54 -7
+sondar 48 -11
+fimturno
+dominar 47 -11
+sondar 54 -2
+sondar 55 -3
+sondar 55 -7
+sondar 46 -10
+fimturno
+dominar 48 -11
+sondar 48 -12
+sondar 52 -1
+sondar 55 -2
+sondar 55 -6
+sondar 46 -9
+fimturno
+dominar 46 -10
+sondar 49 -11
+sondar 46 -12
+sondar 53 -1
+fimturno
+dominar 46 -9
+sondar 45 -9
+sondar 47 -12
+sondar 54 -1
+fimturno
+dominar 53 -1
+sondar 45 -8
+sondar 45 -11
+sondar 49 -12
+fimturno
+dominar 54 -1
+sondar 53 0
+sondar 45 -10
+fimturno
+dominar 49 -12
+sondar 55 0
+sondar 54 0
+fimturno
+dominar 45 -10
+sondar 48 -13
+sondar 55 -1
+sondar 52 0
+fimturno
+dominar 54 0
+sondar 44 -10
+sondar 49 -13
+fimturno
+dominar 52 0
+sondar 53 1
+sondar 44 -9
+sondar 50 -13
+fimturno
+dominar 49 -13
+sondar 51 0
+sondar 54 1
+sondar 44 -11
+sondar 50 -12
+fimturno
+dominar 50 -13
+sondar 48 -14
+sondar 51 1
+sondar 55 1
+sondar 50 -11
+fimturno
+dominar 50 -12
+sondar 51 -12
+sondar 49 -14
+sondar 52 1
+fimturno
+dominar 50 -11
+sondar 51 -11
+sondar 50 -14
+sondar 51 -1
+fimturno
+dominar 52 1
+sondar 51 -10
+sondar 51 -13
+sondar 51 -14
+fimturno
+dominar 51 -1
+sondar 51 2
+fimturno
+dominar 51 -14
+sondar 50 -1
+sondar 52 2
+fimturno
+dominar 51 2
+sondar 52 -15
+sondar 50 0
+sondar 53 2
+fimturno
+dominar 52 2
+sondar 50 2
+sondar 52 -14
+fimturno
+dominar 53 2
+sondar 51 3
+sondar 50 3
+sondar 52 -13
+fimturno
+dominar 52 -14
+sondar 52 3
+sondar 53 3
+sondar 50 1
+sondar 50 -15
+fimturno
+dominar 52 -13
+sondar 53 -13
+sondar 54 3
+sondar 51 -15
+fimturno
+dominar 50 -15
+sondar 53 -12
+sondar 53 -15
+sondar 54 2
+fimturno
+dominar 51 -15
+sondar 49 -16
+sondar 53 -14
+fimturno
+dominar 54 2
+sondar 51 -16
+sondar 50 -16
+sondar 52 -12
+fimturno
+dominar 53 -14
+sondar 55 2
+sondar 52 -16
+sondar 49 -15
+fimturno
+dominar 52 -12
+sondar 54 -14
+sondar 55 3
+DELETEDfimturno
+dominar 49 -15
+sondar 52 -11
+sondar 54 -13
+fimturno
+dominar 55 3
+sondar 48 -16
+sondar 53 -11
+sondar 54 -15
+fimturno
+dominar 54 -13
+sondar 55 4
+sondar 48 -15
+fimturno
+dominar 54 -15
+sondar 55 -12
+sondar 56 4
+fimturno
+dominar 48 -15
+sondar 53 -16
+sondar 55 -14
+sondar 56 2
+fimturno
+dominar 56 4
+sondar 47 -15
+sondar 54 -16
+sondar 55 -13
+sondar 56 3
+fimturno
+dominar 56 2
+sondar 57 3
+sondar 47 -14
+sondar 55 -16
+sondar 54 -12
+sondar 54 4
+fimturno
+dominar 56 3
+sondar 57 2
+sondar 57 4
+sondar 47 -16
+sondar 55 -15
+fimturno
+dominar 54 4
+sondar 56 1
+sondar 55 5
+DELETEDfimturno
+dominar 55 -15
+sondar 53 5
+sondar 57 1
+sondar 56 5
+fimturno
+dominar 55 5
+sondar 56 -14
+sondar 54 5
+sondar 57 5
+fimturno
+dominar 56 5
+sondar 56 6
+sondar 56 -16
+sondar 53 4
+fimturno
+dominar 57 5
+sondar 55 6
+sondar 54 6
+sondar 56 -15
+fimturno
+dominar 53 4
+sondar 58 4
+sondar 57 6
+fimturno
+dominar 56 -15
+sondar 52 4
+sondar 58 5
+fimturno
+dominar 57 6
+sondar 57 -15
+sondar 52 5
+sondar 58 6
+fimturno
+dominar 58 5
+sondar 56 7
+sondar 57 -14
+fimturno
+dominar 58 6
+sondar 59 6
+sondar 57 7
+sondar 57 -16
+fimturno
+dominar 57 -14
+sondar 58 7
+sondar 59 4
+fimturno
+dominar 57 -16
+sondar 58 -13
+sondar 59 7
+sondar 59 5
+fimturno
+dominar 59 4
+sondar 56 -17
+sondar 58 -15
+fimturno
+dominar 59 5
+sondar 59 3
+sondar 57 -17
+sondar 58 -14
+fimturno
+dominar 58 -15
+sondar 60 4
+sondar 60 3
+sondar 58 -17
+sondar 56 -13
+fimturno
+dominar 58 -14
+sondar 59 -15
+sondar 60 5
+sondar 58 3
+sondar 58 -16
+sondar 57 -13
+fimturno
+dominar 56 -13
+sondar 59 -14
+sondar 59 -16
+sondar 60 6
+DELETEDfimturno
+dominar 57 -13
+sondar 56 -12
+sondar 59 -13
+fimturno
+dominar 60 6
+sondar 57 -12
+DELETEDfimturno
+dominar 59 -13
+sondar 61 7
+sondar 58 -12
+fimturno
+dominar 57 -12
+sondar 60 -14
+sondar 61 5
+fimturno
+dominar 58 -12
+sondar 56 -11
+sondar 60 -13
+sondar 61 6
+fimturno
+dominar 61 5
+sondar 59 -12
+sondar 57 -11
+sondar 60 -12
+sondar 60 7
+fimturno
+dominar 61 6
+sondar 62 5
+sondar 58 -11
+fimturno
+dominar 60 7
+sondar 62 6
+sondar 61 4
+sondar 59 -11
+fimturno
+dominar 58 -11
+sondar 59 8
+sondar 62 7
+sondar 62 4
+fimturno
+dominar 59 -11
+sondar 58 -10
+sondar 60 8
+fimturno
+dominar 62 4
+sondar 60 -10
+sondar 59 -10
+sondar 61 8
+fimturno
+dominar 60 8
+sondar 61 3
+sondar 60 -11
+sondar 57 -10
+fimturno
+dominar 61 8
+sondar 59 9
+sondar 62 3
+fimturno
+dominar 57 -10
+sondar 62 8
+sondar 60 9
+sondar 63 3
+fimturno
+dominar 62 3
+sondar 56 -10
+sondar 61 9
+sondar 63 4
+fimturno
+dominar 63 3
+sondar 61 2
+sondar 56 -9
+sondar 62 9
+sondar 63 5
+fimturno
+dominar 63 4
+sondar 64 4
+sondar 62 2
+sondar 57 -9
+fimturno
+dominar 63 5
+sondar 64 5
+sondar 63 2
+sondar 58 -9
+fimturno
+dominar 57 -9
+sondar 64 6
+sondar 64 3
+sondar 64 2
+fimturno
+dominar 58 -9
+sondar 56 -8
+sondar 63 6
+fimturno
+dominar 64 2
+sondar 59 -9
+sondar 57 -8
+fimturno
+dominar 63 6
+sondar 65 1
+sondar 58 -8
+fimturno
+dominar 57 -8
+sondar 63 7
+sondar 65 2
+sondar 59 -8
+fimturno
+dominar 58 -8
+sondar 56 -7
+sondar 64 7
+sondar 65 3
+fimturno
+dominar 59 -8
+sondar 57 -7
+sondar 58 -7
+sondar 63 1
+fimturno
+dominar 65 3
+sondar 59 -7
+sondar 64 1
+fimturno
+dominar 63 1
+sondar 66 4
+sondar 60 -7
+fimturno
+dominar 64 1
+sondar 62 0
+sondar 66 2
+sondar 60 -9
+fimturno
+dominar 60 -7
+sondar 64 0
+sondar 63 0
+sondar 66 3
+sondar 60 -8
+fimturno
+dominar 60 -9
+sondar 61 -8
+sondar 65 0
+sondar 62 1
+sondar 65 4
+fimturno
+dominar 60 -8
+sondar 61 -9
+sondar 61 -7
+DELETEDfimturno
+dominar 65 4
+sondar 61 -10
+sondar 59 -6
+fimturno
+dominar 61 -7
+sondar 65 5
+sondar 60 -6
+fimturno
+dominar 59 -6
+sondar 61 -6
+sondar 66 5
+fimturno
+dominar 60 -6
+sondar 60 -5
+sondar 62 -6
+fimturno
+dominar 66 5
+sondar 59 -5
+sondar 58 -6
+sondar 62 -8
+fimturno
+dominar 62 -6
+sondar 67 4
+sondar 61 -5
+sondar 58 -5
+sondar 62 -7
+fimturno
+dominar 62 -8
+sondar 63 -7
+sondar 67 5
+fimturno
+dominar 62 -7
+sondar 63 -8
+sondar 63 -6
+sondar 65 6
+fimturno
+dominar 67 5
+sondar 62 -9
+sondar 62 -5
+sondar 66 6
+fimturno
+dominar 65 6
+sondar 67 6
+sondar 63 -9
+sondar 63 -5
+fimturno
+dominar 66 6
+sondar 65 7
+sondar 68 6
+fimturno
+dominar 63 -5
+sondar 67 7
+sondar 66 7
+sondar 68 4
+fimturno
+dominar 68 6
+sondar 64 -6
+sondar 68 5
+fimturno
+dominar 68 4
+sondar 69 5
+sondar 64 -5
+fimturno
+dominar 68 5
+sondar 69 3
+sondar 69 6
+sondar 62 -4
+fimturno
+dominar 64 -5
+sondar 69 4
+DELETEDsondar 67 3
+sondar 68 7
+sondar 63 -4
+fimturno
+dominar 62 -4
+sondar 65 -5
+sondar 68 3
+sondar 69 7
+sondar 64 -4
+fimturno
+dominar 63 -4
+sondar 61 -3
+sondar 65 -4
+fimturno
+dominar 64 -4
+sondar 63 -3
+sondar 62 -3
+sondar 65 -6
+fimturno
+dominar 65 -4
+sondar 65 -3
+sondar 64 -3
+sondar 61 -4
+fimturno
+dominar 65 -6
+sondar 66 -5
+fimturno
+dominar 61 -4
+sondar 65 -7
+sondar 66 -4
+fimturno
+dominar 66 -5
+sondar 60 -4
+sondar 66 -7
+sondar 66 -3
+fimturno
+dominar 66 -4
+sondar 67 -5
+sondar 60 -3
+sondar 66 -6
+fimturno
+dominar 66 -3
+sondar 67 -4
+sondar 67 -6
+sondar 64 -7
+fimturno
+dominar 66 -6
+sondar 65 -2
+sondar 67 -3
+fimturno
+dominar 64 -7
+sondar 67 -7
+sondar 66 -2
+fimturno
+dominar 67 -3
+sondar 64 -8
+sondar 67 -2
+fimturno
+dominar 66 -2
+sondar 68 -4
+sondar 65 -8
+fimturno
+dominar 67 -2
+sondar 65 -1
+sondar 68 -3
+fimturno
+dominar 65 -8
+sondar 68 -2
+sondar 66 -1
+fimturno
+dominar 68 -3
+sondar 66 -8
+sondar 67 -1
+fimturno
+dominar 66 -1
+sondar 69 -3
+sondar 64 -9
+sondar 68 -1
+fimturno
+dominar 67 -1
+sondar 66 0
+sondar 69 -2
+sondar 65 -9
+fimturno
+dominar 68 -1
+sondar 67 0
+DELETEDsondar 69 -4
+sondar 66 -9
+fimturno
+dominar 65 -9
+sondar 69 0
+sondar 68 0
+fimturno
+dominar 66 -9
+sondar 64 -10
+sondar 69 -1
+fimturno
+dominar 68 0
+sondar 66 -10
+sondar 65 -10
+fimturno
+dominar 69 -1
+sondar 67 1
+sondar 67 -10
+fimturno
+dominar 65 -10
+sondar 70 -1
+sondar 68 1
+sondar 67 -9
+fimturno
+dominar 67 -10
+sondar 64 -11
+sondar 70 0
+sondar 69 1
+sondar 67 -8
+fimturno
+dominar 67 -9
+sondar 68 -9
+sondar 65 -11
+sondar 70 -2
+fimturno
+dominar 67 -8
+sondar 68 -8
+sondar 66 -11
+fimturno
+dominar 70 -2
+sondar 68 -7
+sondar 68 -10
+sondar 67 -11
+fimturno
+dominar 66 -11
+sondar 70 -3
+sondar 68 -11
+fimturno
+dominar 67 -11
+sondar 66 -12
+sondar 71 -3
+fimturno
+dominar 68 -11
+sondar 68 -12
+sondar 67 -12
+sondar 71 -2
+fimturno
+dominar 71 -3
+sondar 69 -11
+sondar 65 -12
+sondar 71 -1
+fimturno
+dominar 71 -2
+sondar 72 -3
+sondar 69 -10
+fimturno
+dominar 71 -1
+sondar 72 -1
+sondar 72 -2
+sondar 69 -12
+fimturno
+dominar 69 -10
+sondar 71 0
+sondar 70 -4
+fimturno
+dominar 69 -12
+sondar 70 -9
+sondar 72 0
+sondar 71 -4
+fimturno
+dominar 70 -4
+sondar 68 -13
+sondar 70 -11
+sondar 72 -4
+fimturno
+dominar 71 -4
+sondar 70 -5
+sondar 69 -13
+sondar 70 -10
+fimturno
+dominar 72 -4
+sondar 72 -5
+sondar 71 -5
+sondar 70 -13
+sondar 69 -9
+fimturno
+dominar 70 -10
+sondar 73 -4
+sondar 69 -5
+sondar 70 -12
+fimturno
+dominar 69 -9
+sondar 71 -10
+sondar 73 -3
+DELETEDfimturno
+dominar 70 -12
+sondar 69 -8
+sondar 71 -9
+sondar 73 -5
+fimturno
+dominar 73 -3
+sondar 71 -11
+sondar 70 -8
+fimturno
+dominar 73 -5
+sondar 74 -2
+sondar 71 -13
+fimturno
+dominar 70 -8
+sondar 72 -6
+sondar 74 -4
+sondar 71 -12
+fimturno
+dominar 71 -13
+sondar 71 -8
+sondar 73 -6
+sondar 74 -3
+fimturno
+dominar 71 -12
+sondar 72 -14
+sondar 69 -7
+sondar 74 -6
+sondar 73 -2
+fimturno
+dominar 74 -3
+sondar 72 -12
+sondar 72 -13
+sondar 70 -7
+sondar 74 -5
+fimturno
+dominar 73 -2
+sondar 75 -3
+sondar 72 -11
+sondar 70 -14
+sondar 71 -7
+DELETEDfimturno
+dominar 74 -5
+sondar 73 -1
+sondar 75 -2
+sondar 71 -14
+fimturno
+dominar 71 -7
+sondar 75 -4
+sondar 74 -1
+fimturno
+dominar 71 -14
+sondar 72 -8
+sondar 75 -6
+fimturno
+dominar 74 -1
+sondar 70 -15
+sondar 72 -7
+sondar 75 -5
+fimturno
+dominar 75 -6
+sondar 75 -1
+sondar 71 -15
+sondar 70 -6
+fimturno
+dominar 75 -5
+sondar 76 -7
+sondar 73 0
+sondar 72 -15
+sondar 71 -6
+fimturno
+dominar 70 -6
+sondar 76 -5
+sondar 76 -6
+sondar 74 0
+fimturno
+dominar 71 -6
+sondar 69 -6
+DELETEDsondar 76 -4
+sondar 74 -7
+sondar 75 0
+fimturno
+dominar 74 0
+sondar 75 -7
+fimturno
+dominar 75 0
+sondar 74 1
+fimturno
+dominar 75 -7
+sondar 76 1
+sondar 75 1
+fimturno
+dominar 74 1
+sondar 74 -8
+sondar 76 -1
+sondar 73 1
+fimturno
+dominar 75 1
+sondar 73 2
+sondar 75 -8
+sondar 76 0
+fimturno
+dominar 73 1
+sondar 74 2
+sondar 75 2
+sondar 76 -8
+fimturno
+dominar 76 0
+sondar 72 1
+sondar 76 2
+fimturno
+dominar 76 -8
+sondar 77 0
+sondar 72 2
+fimturno
+dominar 76 2
+sondar 77 -7
+sondar 77 1
+DELETEDfimturno
+dominar 72 2
+sondar 76 3
+sondar 75 -9
+sondar 77 -1
+fimturno
+dominar 77 1
+sondar 73 3
+sondar 77 3
+sondar 76 -9
+fimturno
+dominar 77 -1
+sondar 78 0
+sondar 71 1
+sondar 77 2
+sondar 77 -9
+fimturno
+dominar 76 -9
+sondar 77 -2
+sondar 78 1
+sondar 71 2
+sondar 75 3
+sondar 77 -8
+fimturno
+dominar 77 -9
+sondar 77 -10
+sondar 78 -2
+sondar 78 2
+sondar 71 3
+fimturno
+dominar 77 -8
+sondar 78 -9
+sondar 75 -10
+sondar 78 -1
+sondar 72 3
+fimturno
+dominar 71 3
+sondar 78 -8
+sondar 76 -10
+sondar 76 -2
+fimturno
+dominar 72 3
+sondar 70 4
+sondar 78 -7
+sondar 78 -10
+fimturno
+dominar 76 -2
+sondar 72 4
+sondar 71 4
+fimturno
+dominar 78 -10
+sondar 76 -3
+sondar 73 4
+sondar 70 2
+fimturno
+dominar 71 4
+sondar 77 -11
+sondar 77 -3
+sondar 70 3
+fimturno
+dominar 70 2
+sondar 70 5
+sondar 78 -11
+fimturno
+dominar 70 3
+sondar 69 2
+sondar 71 5
+sondar 79 -11
+fimturno
+dominar 78 -11
+sondar 70 1
+sondar 72 5
+sondar 79 -10
+fimturno
+dominar 79 -11
+sondar 77 -12
+sondar 79 -9
+fimturno
+dominar 79 -10
+sondar 80 -10
+sondar 78 -12
+fimturno
+dominar 79 -9
+sondar 80 -9
+sondar 79 -12
+fimturno
+dominar 78 -12
+sondar 80 -8
+sondar 80 -11
+sondar 80 -12
+fimturno
+dominar 79 -12
+sondar 77 -13
+sondar 79 -8
+fimturno
+dominar 80 -12
+sondar 79 -13
+sondar 78 -13
+fimturno
+dominar 79 -8
+sondar 81 -13
+sondar 80 -13
+fimturno
+dominar 78 -13
+sondar 79 -7
+sondar 81 -12
+fimturno
+dominar 80 -13
+sondar 77 -14
+sondar 80 -7
+sondar 81 -11
+fimturno
+dominar 81 -12
+sondar 79 -14
+sondar 78 -14
+fimturno
+dominar 81 -11
+sondar 82 -11
+sondar 80 -14
+fimturno
+dominar 78 -14
+sondar 82 -10
+sondar 82 -13
+sondar 81 -14
+fimturno
+dominar 80 -14
+sondar 77 -15
+sondar 82 -12
+fimturno
+dominar 81 -14
+sondar 80 -15
+sondar 78 -15
+sondar 81 -10
+fimturno
+dominar 82 -12
+sondar 82 -15
+sondar 81 -15
+sondar 79 -15
+fimturno
+dominar 81 -10
+sondar 83 -12
+sondar 82 -14
+fimturno
+dominar 79 -15
+sondar 81 -9
+sondar 83 -11
+DELETEDfimturno
+dominar 82 -14
+sondar 78 -16
+sondar 82 -9
+sondar 83 -13
+fimturno
+dominar 83 -11
+sondar 83 -15
+sondar 79 -16
+fimturno
+dominar 83 -13
+sondar 84 -10
+sondar 83 -14
+sondar 80 -16
+fimturno
+dominar 79 -16
+sondar 84 -14
+sondar 84 -12
+fimturno
+dominar 80 -16
+sondar 79 -17
+sondar 84 -13
+sondar 84 -11
+fimturno
+dominar 84 -12
+sondar 81 -17
+sondar 80 -17
+sondar 83 -10
+fimturno
+dominar 84 -11
+sondar 85 -12
+sondar 81 -16
+sondar 78 -17
+fimturno
+dominar 83 -10
+sondar 85 -11
+sondar 85 -13
+DELETEDfimturno
+dominar 78 -17
+sondar 83 -9
+sondar 85 -10
+fimturno
+dominar 85 -13
+sondar 77 -18
+sondar 84 -9
+fimturno
+dominar 85 -10
+sondar 86 -12
+sondar 78 -18
+fimturno
+dominar 84 -9
+sondar 86 -11
+sondar 85 -14
+sondar 79 -18
+fimturno
+dominar 78 -18
+sondar 85 -9
+sondar 86 -10
+sondar 86 -14
+sondar 77 -17
+fimturno
+dominar 79 -18
+sondar 79 -19
+sondar 83 -8
+sondar 86 -9
+sondar 86 -13
+sondar 77 -16
+fimturno
+dominar 77 -17
+sondar 80 -18
+sondar 77 -19
+sondar 84 -8
+fimturno
+dominar 77 -16
+sondar 76 -16
+sondar 78 -19
+sondar 85 -8
+fimturno
+dominar 84 -8
+sondar 76 -15
+sondar 76 -18
+sondar 80 -19
+fimturno
+dominar 85 -8
+sondar 84 -7
+sondar 76 -17
+fimturno
+dominar 80 -19
+sondar 86 -7
+sondar 85 -7
+fimturno
+dominar 76 -17
+sondar 79 -20
+sondar 86 -8
+sondar 83 -7
+fimturno
+dominar 85 -7
+sondar 75 -17
+sondar 80 -20
+fimturno
+dominar 83 -7
+sondar 84 -6
+sondar 75 -16
+sondar 81 -20
+fimturno
+dominar 80 -20
+sondar 82 -7
+sondar 85 -6
+sondar 75 -18
+sondar 81 -19
+fimturno
+dominar 81 -20
+sondar 79 -21
+sondar 82 -6
+sondar 86 -6
+sondar 81 -18
+fimturno
+dominar 81 -19
+sondar 82 -19
+sondar 80 -21
+sondar 83 -6
+fimturno
+dominar 81 -18
+sondar 82 -18
+sondar 81 -21
+sondar 82 -8
+fimturno
+dominar 83 -6
+sondar 82 -17
+sondar 82 -20
+sondar 82 -21
+fimturno
+dominar 82 -8
+sondar 82 -5
+fimturno
+dominar 82 -21
+sondar 81 -8
+sondar 83 -5
+fimturno
+dominar 82 -5
+sondar 83 -22
+sondar 81 -7
+sondar 84 -5
+fimturno
+dominar 83 -5
+sondar 81 -5
+sondar 83 -21
+fimturno
+dominar 84 -5
+sondar 82 -4
+sondar 81 -4
+sondar 83 -20
+fimturno
+dominar 83 -21
+sondar 83 -4
+sondar 84 -4
+sondar 81 -6
+sondar 81 -22
+fimturno
+dominar 83 -20
+sondar 84 -20
+sondar 85 -4
+sondar 82 -22
+fimturno
+dominar 81 -22
+sondar 84 -19
+sondar 84 -22
+sondar 85 -5
+fimturno
+dominar 82 -22
+sondar 80 -23
+sondar 84 -21
+fimturno
+dominar 85 -5
+sondar 82 -23
+sondar 81 -23
+sondar 83 -19
+fimturno
+dominar 84 -21
+sondar 86 -5
+sondar 83 -23
+sondar 80 -22
+fimturno
+dominar 83 -19
+sondar 85 -21
+sondar 86 -4
+DELETEDfimturno
+dominar 80 -22
+sondar 83 -18
+sondar 85 -20
+fimturno
+dominar 86 -4
+sondar 79 -23
+sondar 84 -18
+sondar 85 -22
+fimturno
+dominar 85 -20
+sondar 86 -3
+sondar 79 -22
+fimturno
+dominar 85 -22
+sondar 86 -19
+sondar 87 -3
+fimturno
+dominar 79 -22
+sondar 84 -23
+sondar 86 -21
+sondar 87 -5
+fimturno
+dominar 87 -3
+sondar 78 -22
+sondar 85 -23
+sondar 86 -20
+sondar 87 -4
+fimturno
+dominar 87 -5
+sondar 88 -4
+sondar 78 -21
+sondar 86 -23
+sondar 85 -19
+sondar 85 -3
+fimturno
+dominar 87 -4
+sondar 88 -5
+sondar 88 -3
+sondar 78 -23
+sondar 86 -22
+fimturno
+dominar 85 -3
+sondar 87 -6
+sondar 86 -2
+DELETEDfimturno
+dominar 86 -22
+sondar 84 -2
+sondar 88 -6
+sondar 87 -2
+fimturno
+dominar 86 -2
+sondar 87 -21
+sondar 85 -2
+sondar 88 -2
+fimturno
+dominar 87 -2
+sondar 87 -1
+sondar 87 -23
+sondar 84 -3
+fimturno
+dominar 88 -2
+sondar 86 -1
+sondar 85 -1
+sondar 87 -22
+fimturno
+dominar 84 -3
+sondar 89 -3
+sondar 88 -1
+fimturno
+dominar 87 -22
+sondar 83 -3
+sondar 89 -2
+fimturno
+dominar 88 -1
+sondar 88 -22
+sondar 83 -2
+sondar 89 -1
+fimturno
+dominar 89 -2
+sondar 87 0
+sondar 88 -21
+fimturno
+dominar 89 -1
+sondar 90 -1
+sondar 88 0
+sondar 88 -23
+fimturno
+dominar 88 -21
+sondar 89 0
+sondar 90 -3
+fimturno
+dominar 88 -23
+sondar 89 -20
+sondar 90 0
+sondar 90 -2
+fimturno
+dominar 90 -3
+sondar 87 -24
+sondar 89 -22
+fimturno
+dominar 90 -2
+sondar 90 -4
+sondar 88 -24
+sondar 89 -21
+fimturno
+dominar 89 -22
+sondar 91 -3
+sondar 91 -4
+sondar 89 -24
+sondar 87 -20
+fimturno
+dominar 89 -21
+sondar 90 -22
+sondar 91 -2
+sondar 89 -4
+sondar 89 -23
+sondar 88 -20
+fimturno
+dominar 87 -20
+sondar 90 -21
+sondar 90 -23
+sondar 91 -1
+DELETEDfimturno
+dominar 88 -20
+sondar 87 -19
+sondar 90 -20
+fimturno
+dominar 91 -1
+sondar 88 -19
+DELETEDfimturno
+dominar 90 -20
+sondar 92 0
+sondar 89 -19
+fimturno
+dominar 88 -19
+sondar 91 -21
+sondar 92 -2
+fimturno
+dominar 89 -19
+sondar 87 -18
+sondar 91 -20
+sondar 92 -1
+fimturno
+dominar 92 -2
+sondar 90 -19
+sondar 88 -18
+sondar 91 -19
+sondar 91 0
+fimturno
+dominar 92 -1
+sondar 93 -2
+sondar 89 -18
+fimturno
+dominar 91 0
+sondar 93 -1
+sondar 92 -3
+sondar 90 -18
+fimturno
+dominar 89 -18
+sondar 90 1
+sondar 93 0
+sondar 93 -3
+fimturno
+dominar 90 -18
+sondar 89 -17
+sondar 91 1
+fimturno
+dominar 93 -3
+sondar 91 -17
+sondar 90 -17
+sondar 92 1
+fimturno
+dominar 91 1
+sondar 92 -4
+sondar 91 -18
+sondar 88 -17
+fimturno
+dominar 92 1
+sondar 90 2
+sondar 93 -4
+fimturno
+dominar 88 -17
+sondar 93 1
+sondar 91 2
+sondar 94 -4
+fimturno
+dominar 93 -4
+sondar 87 -17
+sondar 92 2
+sondar 94 -3
+fimturno
+dominar 94 -4
+sondar 92 -5
+sondar 87 -16
+sondar 93 2
+sondar 94 -2
+fimturno
+dominar 94 -3
+sondar 95 -3
+sondar 93 -5
+sondar 88 -16
+fimturno
+dominar 94 -2
+sondar 95 -2
+sondar 94 -5
+sondar 89 -16
+fimturno
+dominar 88 -16
+sondar 95 -1
+sondar 95 -4
+sondar 95 -5
+fimturno
+dominar 89 -16
+sondar 87 -15
+sondar 94 -1
+fimturno
+dominar 95 -5
+sondar 90 -16
+sondar 88 -15
+fimturno
+dominar 94 -1
+sondar 96 -6
+sondar 89 -15
+fimturno
+dominar 88 -15
+sondar 94 0
+sondar 96 -5
+sondar 90 -15
+fimturno
+dominar 89 -15
+sondar 87 -14
+sondar 95 0
+sondar 96 -4
+fimturno
+dominar 90 -15
+sondar 88 -14
+sondar 89 -14
+sondar 94 -6
+fimturno
+dominar 96 -4
+sondar 90 -14
+sondar 95 -6
+fimturno
+dominar 94 -6
+sondar 97 -3
+sondar 91 -14
+fimturno
+dominar 95 -6
+sondar 93 -7
+sondar 97 -5
+sondar 91 -16
+fimturno
+dominar 91 -14
+sondar 95 -7
+sondar 94 -7
+sondar 97 -4
+sondar 91 -15
+fimturno
+dominar 91 -16
+sondar 92 -15
+sondar 96 -7
+sondar 93 -6
+sondar 96 -3
+fimturno
+dominar 91 -15
+sondar 92 -16
+sondar 92 -14
+DELETEDfimturno
+dominar 96 -3
+sondar 92 -17
+sondar 90 -13
+fimturno
+dominar 92 -14
+sondar 96 -2
+sondar 91 -13
+fimturno
+dominar 90 -13
+sondar 92 -13
+sondar 97 -2
+fimturno
+dominar 91 -13
+sondar 91 -12
+sondar 93 -13
+fimturno
+dominar 97 -2
+sondar 90 -12
+sondar 89 -13
+sondar 93 -15
+fimturno
+dominar 93 -13
+sondar 98 -3
+sondar 92 -12
+sondar 89 -12
+sondar 93 -14
+fimturno
+dominar 93 -15
+sondar 94 -14
+sondar 98 -2
+fimturno
+dominar 93 -14
+sondar 94 -15
+sondar 94 -13
+sondar 96 -1
+fimturno
+dominar 98 -2
+sondar 93 -16
+sondar 93 -12
+sondar 97 -1
+fimturno
+dominar 96 -1
+sondar 98 -1
+sondar 94 -16
+sondar 94 -12
+fimturno
+dominar 97 -1
+sondar 96 0
+sondar 99 -1
+fimturno
+dominar 94 -12
+sondar 98 0
+sondar 97 0
+sondar 99 -3
+fimturno
+dominar 99 -1
+sondar 95 -13
+sondar 99 -2
+fimturno
+dominar 99 -3
+sondar 100 -2
+sondar 95 -12
+fimturno
+dominar 99 -2
+sondar 100 -4
+sondar 100 -1
+sondar 93 -11
+fimturno
+dominar 95 -12
+sondar 100 -3
+DELETEDsondar 98 -4
+sondar 99 0
+sondar 94 -11
+fimturno
+dominar 93 -11
+sondar 96 -12
+sondar 99 -4
+sondar 100 0
+sondar 95 -11
+fimturno
+dominar 94 -11
+sondar 92 -10
+sondar 96 -11
+fimturno
+dominar 95 -11
+sondar 94 -10
+sondar 93 -10
+sondar 96 -13
+fimturno
+dominar 96 -11
+sondar 96 -10
+sondar 95 -10
+sondar 92 -11
+fimturno
+dominar 96 -13
+sondar 97 -12
+fimturno
+dominar 92 -11
+sondar 96 -14
+sondar 97 -11
+fimturno
+dominar 97 -12
+sondar 91 -11
+sondar 97 -14
+sondar 97 -10
+fimturno
+dominar 97 -11
+sondar 98 -12
+sondar 91 -10
+sondar 97 -13
+fimturno
+dominar 97 -10
+sondar 98 -11
+sondar 98 -13
+sondar 95 -14
+fimturno
+dominar 97 -13
+sondar 96 -9
+sondar 98 -10
+fimturno
+dominar 95 -14
+sondar 98 -14
+sondar 97 -9
+fimturno
+dominar 98 -10
+sondar 95 -15
+sondar 98 -9
+fimturno
+dominar 97 -9
+sondar 99 -11
+sondar 96 -15
+fimturno
+dominar 98 -9
+sondar 96 -8
+sondar 99 -10
+fimturno
+dominar 96 -15
+sondar 99 -9
+sondar 97 -8
+fimturno
+dominar 99 -10
+sondar 97 -15
+sondar 98 -8
+fimturno
+dominar 97 -8
+sondar 100 -10
+sondar 95 -16
+sondar 99 -8
+fimturno
+dominar 98 -8
+sondar 97 -7
+sondar 100 -9
+sondar 96 -16
+fimturno
+dominar 99 -8
+sondar 98 -7
+DELETEDsondar 100 -11
+sondar 97 -16
+fimturno
+dominar 96 -16
+sondar 100 -7
+sondar 99 -7
+fimturno
+dominar 97 -16
+sondar 95 -17
+sondar 100 -8
+fimturno
+dominar 99 -7
+sondar 97 -17
+sondar 96 -17
+fimturno
+dominar 100 -8
+sondar 98 -6
+sondar 98 -17
+fimturno
+dominar 96 -17
+sondar 101 -8
+sondar 99 -6
+sondar 98 -16
+fimturno
+dominar 98 -17
+sondar 95 -18
+sondar 101 -7
+sondar 100 -6
+sondar 98 -15
+fimturno
+dominar 98 -16
+sondar 99 -16
+sondar 96 -18
+sondar 101 -9
+fimturno
+dominar 98 -15
+sondar 99 -15
+sondar 97 -18
+fimturno
+dominar 101 -9
+sondar 99 -14
+sondar 99 -17
+sondar 98 -18
+fimturno
+dominar 97 -18
+sondar 101 -10
+sondar 99 -18
+fimturno
+dominar 98 -18
+sondar 97 -19
+sondar 102 -10
+fimturno
+dominar 99 -18
+sondar 99 -19
+sondar 98 -19
+sondar 102 -9
+fimturno
+dominar 102 -10
+sondar 100 -18
+sondar 96 -19
+sondar 102 -8
+fimturno
+dominar 102 -9
+sondar 103 -10
+sondar 100 -17
+fimturno
+dominar 102 -8
+sondar 103 -8
+sondar 103 -9
+sondar 100 -19
+fimturno
+dominar 100 -17
+sondar 102 -7
+sondar 101 -11
+fimturno
+dominar 100 -19
+sondar 101 -16
+sondar 103 -7
+sondar 102 -11
+fimturno
+dominar 101 -11
+sondar 99 -20
+sondar 101 -18
+sondar 103 -11
+fimturno
+dominar 102 -11
+sondar 101 -12
+sondar 100 -20
+sondar 101 -17
+fimturno
+dominar 103 -11
+sondar 103 -12
+sondar 102 -12
+sondar 101 -20
+sondar 100 -16
+fimturno
+dominar 101 -17
+sondar 104 -11
+sondar 100 -12
+sondar 101 -19
+fimturno
+dominar 100 -16
+sondar 102 -17
+sondar 104 -10
+DELETEDfimturno
+dominar 101 -19
+sondar 100 -15
+sondar 102 -16
+sondar 104 -12
+fimturno
+dominar 104 -10
+sondar 102 -18
+sondar 101 -15
+fimturno
+dominar 104 -12
+sondar 105 -9
+sondar 102 -20
+fimturno
+dominar 101 -15
+sondar 103 -13
+sondar 105 -11
+sondar 102 -19
+fimturno
+dominar 102 -20
+sondar 102 -15
+sondar 104 -13
+sondar 105 -10
+fimturno
+dominar 102 -19
+sondar 103 -21
+sondar 100 -14
+sondar 105 -13
+sondar 104 -9
+fimturno
+dominar 105 -10
+sondar 103 -19
+sondar 103 -20
+sondar 101 -14
+sondar 105 -12
+fimturno
+dominar 104 -9
+sondar 106 -10
+sondar 103 -18
+sondar 101 -21
+sondar 102 -14
+DELETEDfimturno
+dominar 105 -12
+sondar 104 -8
+sondar 106 -9
+sondar 102 -21
+fimturno
+dominar 102 -14
+sondar 106 -11
+sondar 105 -8
+fimturno
+dominar 102 -21
+sondar 103 -15
+sondar 106 -13
+fimturno
+dominar 105 -8
+sondar 101 -22
+sondar 103 -14
+sondar 106 -12
+fimturno
+dominar 106 -13
+sondar 106 -8
+sondar 102 -22
+sondar 101 -13
+fimturno
+dominar 106 -12
+sondar 107 -14
+sondar 104 -7
+sondar 103 -22
+sondar 102 -13
+fimturno
+dominar 101 -13
+sondar 107 -12
+sondar 107 -13
+sondar 105 -7
+fimturno
+dominar 102 -13
+sondar 100 -13
+DELETEDsondar 107 -11
+sondar 105 -14
+sondar 106 -7
+fimturno
+dominar 105 -7
+sondar 106 -14
+fimturno
+dominar 106 -7
+sondar 105 -6
+fimturno
+dominar 106 -14
+sondar 107 -6
+sondar 106 -6
+fimturno
+dominar 105 -6
+sondar 105 -15
+sondar 107 -8
+sondar 104 -6
+fimturno
+dominar 106 -6
+sondar 104 -5
+sondar 106 -15
+sondar 107 -7
+fimturno
+dominar 104 -6
+sondar 105 -5
+sondar 106 -5
+sondar 107 -15
+fimturno
+dominar 107 -7
+sondar 103 -6
+sondar 107 -5
+fimturno
+dominar 107 -15
+sondar 108 -7
+sondar 103 -5
+fimturno
+dominar 107 -5
+sondar 108 -14
+sondar 108 -6
+DELETEDfimturno
+dominar 103 -5
+sondar 107 -4
+sondar 106 -16
+sondar 108 -8
+fimturno
+dominar 108 -6
+sondar 104 -4
+sondar 108 -4
+sondar 107 -16
+fimturno
+dominar 108 -8
+sondar 109 -7
+sondar 102 -6
+sondar 108 -5
+sondar 108 -16
+fimturno
+dominar 107 -16
+sondar 108 -9
+sondar 109 -6
+sondar 102 -5
+sondar 106 -4
+sondar 108 -15
+fimturno
+dominar 108 -16
+sondar 108 -17
+sondar 109 -9
+sondar 109 -5
+sondar 102 -4
+fimturno
+dominar 108 -15
+sondar 109 -16
+sondar 106 -17
+sondar 109 -8
+sondar 103 -4
+fimturno
+dominar 102 -4
+sondar 109 -15
+sondar 107 -17
+sondar 107 -9
+fimturno
+dominar 103 -4
+sondar 101 -3
+sondar 109 -14
+sondar 109 -17
+fimturno
+dominar 107 -9
+sondar 103 -3
+sondar 102 -3
+fimturno
+dominar 109 -17
+sondar 107 -10
+sondar 104 -3
+sondar 101 -5
+fimturno
+dominar 102 -3
+sondar 108 -18
+sondar 108 -10
+sondar 101 -4
+fimturno
+dominar 101 -5
+sondar 101 -2
+sondar 109 -18
+fimturno
+dominar 101 -4
+sondar 100 -5
+sondar 102 -2
+sondar 110 -18
+fimturno
+dominar 109 -18
+sondar 101 -6
+sondar 103 -2
+sondar 110 -17
+fimturno
+dominar 110 -18
+sondar 108 -19
+sondar 110 -16
+fimturno
+dominar 110 -17
+sondar 111 -17
+sondar 109 -19
+fimturno
+dominar 110 -16
+sondar 111 -16
+sondar 110 -19
+fimturno
+dominar 109 -19
+sondar 111 -15
+sondar 111 -18
+sondar 111 -19
+fimturno
+dominar 110 -19
+sondar 108 -20
+sondar 110 -15
+fimturno
+dominar 111 -19
+sondar 110 -20
+sondar 109 -20
+fimturno
+dominar 110 -15
+sondar 112 -20
+sondar 111 -20
+fimturno
+dominar 109 -20
+sondar 110 -14
+sondar 112 -19
+fimturno
+dominar 111 -20
+sondar 108 -21
+sondar 111 -14
+sondar 112 -18
+fimturno
+dominar 112 -19
+sondar 110 -21
+sondar 109 -21
+fimturno
+dominar 112 -18
+sondar 113 -18
+sondar 111 -21
+fimturno
+dominar 109 -21
+sondar 113 -17
+sondar 113 -20
+sondar 112 -21
+fimturno
+dominar 111 -21
+sondar 108 -22
+sondar 113 -19
+fimturno
+dominar 112 -21
+sondar 111 -22
+sondar 109 -22
+sondar 112 -17
+fimturno
+dominar 113 -19
+sondar 113 -22
+sondar 112 -22
+sondar 110 -22
+fimturno
+dominar 112 -17
+sondar 114 -19
+sondar 113 -21
+fimturno
+dominar 110 -22
+sondar 112 -16
+sondar 114 -18
+DELETEDfimturno
+dominar 113 -21
+sondar 109 -23
+sondar 113 -16
+sondar 114 -20
+fimturno
+dominar 114 -18
+sondar 114 -22
+sondar 110 -23
+fimturno
+dominar 114 -20
+sondar 115 -17
+sondar 114 -21
+sondar 111 -23
+fimturno
+dominar 110 -23
+sondar 115 -21
+sondar 115 -19
+fimturno
+dominar 111 -23
+sondar 110 -24
+sondar 115 -20
+sondar 115 -18
+fimturno
+dominar 115 -19
+sondar 112 -24
+sondar 111 -24
+sondar 114 -17
+fimturno
+dominar 115 -18
+sondar 116 -19
+sondar 112 -23
+sondar 109 -24
+fimturno
+dominar 114 -17
+sondar 116 -18
+sondar 116 -20
+DELETEDfimturno
+dominar 109 -24
+sondar 114 -16
+sondar 116 -17
+fimturno
+dominar 116 -20
+sondar 108 -25
+sondar 115 -16
+fimturno
+dominar 116 -17
+sondar 117 -19
+sondar 109 -25
+fimturno
+dominar 115 -16
+sondar 117 -18
+sondar 116 -21
+sondar 110 -25
+fimturno
+dominar 109 -25
+sondar 116 -16
+sondar 117 -17
+sondar 117 -21
+sondar 108 -24
+fimturno
+dominar 110 -25
+sondar 110 -26
+sondar 114 -15
+sondar 117 -16
+sondar 117 -20
+sondar 108 -23
+fimturno
+dominar 108 -24
+sondar 111 -25
+sondar 108 -26
+sondar 115 -15
+fimturno
+dominar 108 -23
+sondar 107 -23
+sondar 109 -26
+sondar 116 -15
+fimturno
+dominar 115 -15
+sondar 107 -22
+sondar 107 -25
+sondar 111 -26
+fimturno
+dominar 116 -15
+sondar 115 -14
+sondar 107 -24
+fimturno
+dominar 111 -26
+sondar 117 -14
+sondar 116 -14
+fimturno
+dominar 107 -24
+sondar 110 -27
+sondar 117 -15
+sondar 114 -14
+fimturno
+dominar 116 -14
+sondar 106 -24
+sondar 111 -27
+fimturno
+dominar 114 -14
+sondar 115 -13
+sondar 106 -23
+sondar 112 -27
+fimturno
+dominar 111 -27
+sondar 113 -14
+sondar 116 -13
+sondar 106 -25
+sondar 112 -26
+fimturno
+dominar 112 -27
+sondar 110 -28
+sondar 113 -13
+sondar 117 -13
+sondar 112 -25
+fimturno
+dominar 112 -26
+sondar 113 -26
+sondar 111 -28
+sondar 114 -13
+fimturno
+dominar 112 -25
+sondar 113 -25
+sondar 112 -28
+sondar 113 -15
+fimturno
+dominar 114 -13
+sondar 113 -24
+sondar 113 -27
+sondar 113 -28
+fimturno
+dominar 113 -15
+sondar 113 -12
+fimturno
+dominar 113 -28
+sondar 112 -15
+sondar 114 -12
+fimturno
+dominar 113 -12
+sondar 114 -29
+sondar 112 -14
+sondar 115 -12
+fimturno
+dominar 114 -12
+sondar 112 -12
+sondar 114 -28
+fimturno
+dominar 115 -12
+sondar 113 -11
+sondar 112 -11
+sondar 114 -27
+fimturno
+dominar 114 -28
+sondar 114 -11
+sondar 115 -11
+sondar 112 -13
+sondar 112 -29
+fimturno
+dominar 114 -27
+sondar 115 -27
+sondar 116 -11
+sondar 113 -29
+fimturno
+dominar 112 -29
+sondar 115 -26
+sondar 115 -29
+sondar 116 -12
+fimturno
+dominar 113 -29
+sondar 111 -30
+sondar 115 -28
+fimturno
+dominar 116 -12
+sondar 113 -30
+sondar 112 -30
+sondar 114 -26
+fimturno
+dominar 115 -28
+sondar 117 -12
+sondar 114 -30
+sondar 111 -29
+fimturno
+dominar 114 -26
+sondar 116 -28
+sondar 117 -11
+DELETEDfimturno
+dominar 111 -29
+sondar 114 -25
+sondar 116 -27
+fimturno
+dominar 117 -11
+sondar 110 -30
+sondar 115 -25
+sondar 116 -29
+fimturno
+dominar 116 -27
+sondar 117 -10
+sondar 110 -29
+fimturno
+dominar 116 -29
+sondar 117 -26
+sondar 118 -10
+fimturno
+dominar 110 -29
+sondar 115 -30
+sondar 117 -28
+sondar 118 -12
+fimturno
+dominar 118 -10
+sondar 109 -29
+sondar 116 -30
+sondar 117 -27
+sondar 118 -11
+fimturno
+dominar 118 -12
+sondar 119 -11
+sondar 109 -28
+sondar 117 -30
+sondar 116 -26
+sondar 116 -10
+fimturno
+dominar 118 -11
+sondar 119 -12
+sondar 119 -10
+sondar 109 -30
+sondar 117 -29
+fimturno
+dominar 116 -10
+sondar 118 -13
+sondar 117 -9
+DELETEDfimturno
+dominar 117 -29
+sondar 115 -9
+sondar 119 -13
+sondar 118 -9
+fimturno
+dominar 117 -9
+sondar 118 -28
+sondar 116 -9
+sondar 119 -9
+fimturno
+dominar 118 -9
+sondar 118 -8
+sondar 118 -30
+sondar 115 -10
+fimturno
+dominar 119 -9
+sondar 117 -8
+sondar 116 -8
+sondar 118 -29
+fimturno
+dominar 115 -10
+sondar 120 -10
+sondar 119 -8
+fimturno
+dominar 118 -29
+sondar 114 -10
+sondar 120 -9
+fimturno
+dominar 119 -8
+sondar 119 -29
+sondar 114 -9
+sondar 120 -8
+fimturno
+dominar 120 -9
+sondar 118 -7
+sondar 119 -28
+fimturno
+dominar 120 -8
+sondar 121 -8
+sondar 119 -7
+sondar 119 -30
+fimturno
+dominar 119 -28
+sondar 120 -7
+sondar 121 -10
+fimturno
+dominar 119 -30
+sondar 120 -27
+sondar 121 -7
+sondar 121 -9
+fimturno
+dominar 121 -10
+sondar 118 -31
+sondar 120 -29
+fimturno
+dominar 121 -9
+sondar 121 -11
+sondar 119 -31
+sondar 120 -28
+fimturno
+dominar 120 -29
+sondar 122 -10
+sondar 122 -11
+sondar 120 -31
+sondar 118 -27
+fimturno
+dominar 120 -28
+sondar 121 -29
+sondar 122 -9
+sondar 120 -11
+sondar 120 -30
+sondar 119 -27
+fimturno
+dominar 118 -27
+sondar 121 -28
+sondar 121 -30
+sondar 122 -8
+DELETEDfimturno
+dominar 119 -27
+sondar 118 -26
+sondar 121 -27
+fimturno
+dominar 122 -8
+sondar 119 -26
+DELETEDfimturno
+dominar 121 -27
+sondar 123 -7
+sondar 120 -26
+fimturno
+dominar 119 -26
+sondar 122 -28
+sondar 123 -9
+fimturno
+dominar 120 -26
+sondar 118 -25
+sondar 122 -27
+sondar 123 -8
+fimturno
+dominar 123 -9
+sondar 121 -26
+sondar 119 -25
+sondar 122 -26
+sondar 122 -7
+fimturno
+dominar 123 -8
+sondar 124 -9
+sondar 120 -25
+fimturno
+dominar 122 -7
+sondar 124 -8
+sondar 123 -10
+sondar 121 -25
+fimturno
+dominar 120 -25
+sondar 121 -6
+sondar 124 -7
+sondar 124 -10
+fimturno
+dominar 121 -25
+sondar 120 -24
+sondar 122 -6
+fimturno
+dominar 124 -10
+sondar 122 -24
+sondar 121 -24
+sondar 123 -6
+fimturno
+dominar 122 -6
+sondar 123 -11
+sondar 122 -25
+sondar 119 -24
+fimturno
+dominar 123 -6
+sondar 121 -5
+sondar 124 -11
+fimturno
+dominar 119 -24
+sondar 124 -6
+sondar 122 -5
+sondar 125 -11
+fimturno
+dominar 124 -11
+sondar 118 -24
+sondar 123 -5
+sondar 125 -10
+fimturno
+dominar 125 -11
+sondar 123 -12
+sondar 118 -23
+sondar 124 -5
+sondar 125 -9
+fimturno
+dominar 125 -10
+sondar 126 -10
+sondar 124 -12
+sondar 119 -23
+fimturno
+dominar 125 -9
+sondar 126 -9
+sondar 125 -12
+sondar 120 -23
+fimturno
+dominar 119 -23
+sondar 126 -8
+sondar 126 -11
+sondar 126 -12
+fimturno
+dominar 120 -23
+sondar 118 -22
+sondar 125 -8
+fimturno
+dominar 126 -12
+sondar 121 -23
+sondar 119 -22
+fimturno
+dominar 125 -8
+sondar 127 -13
+sondar 120 -22
+fimturno
+dominar 119 -22
+sondar 125 -7
+sondar 127 -12
+sondar 121 -22
+fimturno
+dominar 120 -22
+sondar 118 -21
+sondar 126 -7
+sondar 127 -11
+fimturno
+dominar 121 -22
+sondar 119 -21
+sondar 120 -21
+sondar 125 -13
+fimturno
+dominar 127 -11
+sondar 121 -21
+sondar 126 -13
+fimturno
+dominar 125 -13
+sondar 128 -10
+sondar 122 -21
+fimturno
+dominar 126 -13
+sondar 124 -14
+sondar 128 -12
+sondar 122 -23
+fimturno
+dominar 122 -21
+sondar 126 -14
+sondar 125 -14
+sondar 128 -11
+sondar 122 -22
+fimturno
+dominar 122 -23
+sondar 123 -22
+sondar 127 -14
+sondar 124 -13
+sondar 127 -10
+fimturno
+dominar 122 -22
+sondar 123 -23
+sondar 123 -21
+DELETEDfimturno
+dominar 127 -10
+sondar 123 -24
+sondar 121 -20
+fimturno
+dominar 123 -21
+sondar 127 -9
+sondar 122 -20
+fimturno
+dominar 121 -20
+sondar 123 -20
+sondar 128 -9
+fimturno
+dominar 122 -20
+sondar 122 -19
+sondar 124 -20
+fimturno
+dominar 128 -9
+sondar 121 -19
+sondar 120 -20
+sondar 124 -22
+fimturno
+dominar 124 -20
+sondar 129 -10
+sondar 123 -19
+sondar 120 -19
+sondar 124 -21
+fimturno
+dominar 124 -22
+sondar 125 -21
+sondar 129 -9
+fimturno
+dominar 124 -21
+sondar 125 -22
+sondar 125 -20
+sondar 127 -8
+fimturno
+dominar 129 -9
+sondar 124 -23
+sondar 124 -19
+sondar 128 -8
+fimturno
+dominar 127 -8
+sondar 129 -8
+sondar 125 -23
+sondar 125 -19
+fimturno
+dominar 128 -8
+sondar 127 -7
+sondar 130 -8
+fimturno
+dominar 125 -19
+sondar 129 -7
+sondar 128 -7
+sondar 130 -10
+fimturno
+dominar 130 -8
+sondar 126 -20
+sondar 130 -9
+fimturno
+dominar 130 -10
+sondar 131 -9
+sondar 126 -19
+fimturno
+dominar 130 -9
+sondar 131 -11
+sondar 131 -8
+sondar 124 -18
+fimturno
+dominar 126 -19
+sondar 131 -10
+DELETEDsondar 129 -11
+sondar 130 -7
+sondar 125 -18
+fimturno
+dominar 124 -18
+sondar 127 -19
+sondar 130 -11
+sondar 131 -7
+sondar 126 -18
+fimturno
+dominar 125 -18
+sondar 123 -17
+sondar 127 -18
+fimturno
+dominar 126 -18
+sondar 125 -17
+sondar 124 -17
+sondar 127 -20
+fimturno
+dominar 127 -18
+sondar 127 -17
+sondar 126 -17
+sondar 123 -18
+fimturno
+dominar 127 -20
+sondar 128 -19
+fimturno
+dominar 123 -18
+sondar 127 -21
+sondar 128 -18
+fimturno
+dominar 128 -19
+sondar 122 -18
+sondar 128 -21
+sondar 128 -17
+fimturno
+dominar 128 -18
+sondar 129 -19
+sondar 122 -17
+sondar 128 -20
+fimturno
+dominar 128 -17
+sondar 129 -18
+sondar 129 -20
+sondar 126 -21
+fimturno
+dominar 128 -20
+sondar 127 -16
+sondar 129 -17
+fimturno
+dominar 126 -21
+sondar 129 -21
+sondar 128 -16
+fimturno
+dominar 129 -17
+sondar 126 -22
+sondar 129 -16
+fimturno
+dominar 128 -16
+sondar 130 -18
+sondar 127 -22
+fimturno
+dominar 129 -16
+sondar 127 -15
+sondar 130 -17
+fimturno
+dominar 127 -22
+sondar 130 -16
+sondar 128 -15
+fimturno
+dominar 130 -17
+sondar 128 -22
+sondar 129 -15
+fimturno
+dominar 128 -15
+sondar 131 -17
+sondar 126 -23
+sondar 130 -15
+fimturno
+dominar 129 -15
+sondar 128 -14
+sondar 131 -16
+sondar 127 -23
+fimturno
+dominar 130 -15
+sondar 129 -14
+DELETEDsondar 131 -18
+sondar 128 -23
+fimturno
+dominar 127 -23
+sondar 131 -14
+sondar 130 -14
+fimturno
+dominar 128 -23
+sondar 126 -24
+sondar 131 -15
+fimturno
+dominar 130 -14
+sondar 128 -24
+sondar 127 -24
+fimturno
+dominar 131 -15
+sondar 129 -13
+sondar 129 -24
+fimturno
+dominar 127 -24
+sondar 132 -15
+sondar 130 -13
+sondar 129 -23
+fimturno
+dominar 129 -24
+sondar 126 -25
+sondar 132 -14
+sondar 131 -13
+sondar 129 -22
+fimturno
+dominar 129 -23
+sondar 130 -23
+sondar 127 -25
+sondar 132 -16
+fimturno
+dominar 129 -22
+sondar 130 -22
+sondar 128 -25
+fimturno
+dominar 132 -16
+sondar 130 -21
+sondar 130 -24
+sondar 129 -25
+fimturno
+dominar 128 -25
+sondar 132 -17
+sondar 130 -25
+fimturno
+dominar 129 -25
+sondar 128 -26
+sondar 133 -17
+fimturno
+dominar 130 -25
+sondar 130 -26
+sondar 129 -26
+sondar 133 -16
+fimturno
+dominar 133 -17
+sondar 131 -25
+sondar 127 -26
+sondar 133 -15
+fimturno
+dominar 133 -16
+sondar 134 -17
+sondar 131 -24
+fimturno
+dominar 133 -15
+sondar 134 -15
+sondar 134 -16
+sondar 131 -26
+fimturno
+dominar 131 -24
+sondar 133 -14
+sondar 132 -18
+fimturno
+dominar 131 -26
+sondar 132 -23
+sondar 134 -14
+sondar 133 -18
+fimturno
+dominar 132 -18
+sondar 130 -27
+sondar 132 -25
+sondar 134 -18
+fimturno
+dominar 133 -18
+sondar 132 -19
+sondar 131 -27
+sondar 132 -24
+fimturno
+dominar 134 -18
+sondar 134 -19
+sondar 133 -19
+sondar 132 -27
+sondar 131 -23
+fimturno
+dominar 132 -24
+sondar 135 -18
+sondar 131 -19
+sondar 132 -26
+fimturno
+dominar 131 -23
+sondar 133 -24
+sondar 135 -17
+DELETEDfimturno
+dominar 132 -26
+sondar 131 -22
+sondar 133 -23
+sondar 135 -19
+fimturno
+dominar 135 -17
+sondar 133 -25
+sondar 132 -22
+fimturno
+dominar 135 -19
+sondar 136 -16
+sondar 133 -27
+fimturno
+dominar 132 -22
+sondar 134 -20
+sondar 136 -18
+sondar 133 -26
+fimturno
+dominar 133 -27
+sondar 133 -22
+sondar 135 -20
+sondar 136 -17
+fimturno
+dominar 133 -26
+sondar 134 -28
+sondar 131 -21
+sondar 136 -20
+sondar 135 -16
+fimturno
+dominar 136 -17
+sondar 134 -26
+sondar 134 -27
+sondar 132 -21
+sondar 136 -19
+fimturno
+dominar 135 -16
+sondar 137 -17
+sondar 134 -25
+sondar 132 -28
+sondar 133 -21
+DELETEDfimturno
+dominar 136 -19
+sondar 135 -15
+sondar 137 -16
+sondar 133 -28
+fimturno
+dominar 133 -21
+sondar 137 -18
+sondar 136 -15
+fimturno
+dominar 133 -28
+sondar 134 -22
+sondar 137 -20
+fimturno
+dominar 136 -15
+sondar 132 -29
+sondar 134 -21
+sondar 137 -19
+fimturno
+dominar 137 -20
+sondar 137 -15
+sondar 133 -29
+sondar 132 -20
+fimturno
+dominar 137 -19
+sondar 138 -21
+sondar 135 -14
+sondar 134 -29
+sondar 133 -20
+fimturno
+dominar 132 -20
+sondar 138 -19
+sondar 138 -20
+sondar 136 -14
+fimturno
+dominar 133 -20
+sondar 131 -20
+DELETEDsondar 138 -18
+sondar 136 -21
+sondar 137 -14
+fimturno
+dominar 136 -14
+sondar 137 -21
+fimturno
+dominar 137 -14
+sondar 136 -13
+fimturno
+dominar 137 -21
+sondar 138 -13
+sondar 137 -13
+fimturno
+dominar 136 -13
+sondar 136 -22
+sondar 138 -15
+sondar 135 -13
+fimturno
+dominar 137 -13
+sondar 135 -12
+sondar 137 -22
+sondar 138 -14
+fimturno
+dominar 135 -13
+sondar 136 -12
+sondar 137 -12
+sondar 138 -22
+fimturno
+dominar 138 -14
+sondar 134 -13
+sondar 138 -12
+fimturno
+dominar 138 -22
+sondar 139 -14
+sondar 134 -12
+fimturno
+dominar 138 -12
+sondar 139 -21
+sondar 139 -13
+DELETEDfimturno
+dominar 134 -12
+sondar 138 -11
+sondar 137 -23
+sondar 139 -15
+fimturno
+dominar 139 -13
+sondar 135 -11
+sondar 139 -11
+sondar 138 -23
+fimturno
+dominar 139 -15
+sondar 140 -14
+sondar 133 -13
+sondar 139 -12
+sondar 139 -23
+fimturno
+dominar 138 -23
+sondar 139 -16
+sondar 140 -13
+sondar 133 -12
+sondar 137 -11
+sondar 139 -22
+fimturno
+dominar 139 -23
+sondar 139 -24
+sondar 140 -16
+sondar 140 -12
+sondar 133 -11
+fimturno
+dominar 139 -22
+sondar 140 -23
+sondar 137 -24
+sondar 140 -15
+sondar 134 -11
+fimturno
+dominar 133 -11
+sondar 140 -22
+sondar 138 -24
+sondar 138 -16
+fimturno
+dominar 134 -11
+sondar 132 -10
+sondar 140 -21
+sondar 140 -24
+fimturno
+dominar 138 -16
+sondar 134 -10
+sondar 133 -10
+fimturno
+dominar 140 -24
+sondar 138 -17
+sondar 135 -10
+sondar 132 -12
+fimturno
+dominar 133 -10
+sondar 139 -25
+sondar 139 -17
+sondar 132 -11
+fimturno
+dominar 132 -12
+sondar 132 -9
+sondar 140 -25
+fimturno
+dominar 132 -11
+sondar 131 -12
+sondar 133 -9
+sondar 141 -25
+fimturno
+dominar 140 -25
+sondar 132 -13
+sondar 134 -9
+sondar 141 -24
+fimturno
+dominar 141 -25
+sondar 139 -26
+sondar 141 -23
+fimturno
+dominar 141 -24
+sondar 142 -24
+sondar 140 -26
+fimturno
+dominar 141 -23
+sondar 142 -23
+sondar 141 -26
+fimturno
+dominar 140 -26
+sondar 142 -22
+sondar 142 -25
+sondar 142 -26
+fimturno
+dominar 141 -26
+sondar 139 -27
+sondar 141 -22
+fimturno
+dominar 142 -26
+sondar 141 -27
+sondar 140 -27
+fimturno
+dominar 141 -22
+sondar 143 -27
+sondar 142 -27
+fimturno
+dominar 140 -27
+sondar 141 -21
+sondar 143 -26
+fimturno
+dominar 142 -27
+sondar 139 -28
+sondar 142 -21
+sondar 143 -25
+fimturno
+dominar 143 -26
+sondar 141 -28
+sondar 140 -28
+fimturno
+dominar 143 -25
+sondar 144 -25
+sondar 142 -28
+fimturno
+dominar 140 -28
+sondar 144 -24
+sondar 144 -27
+sondar 143 -28
+fimturno
+dominar 142 -28
+sondar 139 -29
+sondar 144 -26
+fimturno
+dominar 143 -28
+sondar 142 -29
+sondar 140 -29
+sondar 143 -24
+fimturno
+dominar 144 -26
+sondar 144 -29
+sondar 143 -29
+sondar 141 -29
+fimturno
+dominar 143 -24
+sondar 145 -26
+sondar 144 -28
+fimturno
+dominar 141 -29
+sondar 143 -23
+sondar 145 -25
+DELETEDfimturno
+dominar 144 -28
+sondar 140 -30
+sondar 144 -23
+sondar 145 -27
+fimturno
+dominar 145 -25
+sondar 145 -29
+sondar 141 -30
+fimturno
+dominar 145 -27
+sondar 146 -24
+sondar 145 -28
+sondar 142 -30
+fimturno
+dominar 141 -30
+sondar 146 -28
+sondar 146 -26
+fimturno
+dominar 142 -30
+sondar 141 -31
+sondar 146 -27
+sondar 146 -25
+fimturno
+dominar 146 -26
+sondar 143 -31
+sondar 142 -31
+sondar 145 -24
+fimturno
+dominar 146 -25
+sondar 147 -26
+sondar 143 -30
+sondar 140 -31
+fimturno
+dominar 145 -24
+sondar 147 -25
+sondar 147 -27
+DELETEDfimturno
+dominar 140 -31
+sondar 145 -23
+sondar 147 -24
+fimturno
+dominar 147 -27
+sondar 139 -32
+sondar 146 -23
+fimturno
+dominar 147 -24
+sondar 148 -26
+sondar 140 -32
+fimturno
+dominar 146 -23
+sondar 148 -25
+sondar 147 -28
+sondar 141 -32
+fimturno
+dominar 140 -32
+sondar 147 -23
+sondar 148 -24
+sondar 148 -28
+sondar 139 -31
+fimturno
+dominar 141 -32
+sondar 141 -33
+sondar 145 -22
+sondar 148 -23
+sondar 148 -27
+sondar 139 -30
+fimturno
+dominar 139 -31
+sondar 142 -32
+sondar 139 -33
+sondar 146 -22
+fimturno
+dominar 139 -30
+sondar 138 -30
+sondar 140 -33
+sondar 147 -22
+fimturno
+dominar 146 -22
+sondar 138 -29
+sondar 138 -32
+sondar 142 -33
+fimturno
+dominar 147 -22
+sondar 146 -21
+sondar 138 -31
+fimturno
+dominar 142 -33
+sondar 148 -21
+sondar 147 -21
+fimturno
+dominar 138 -31
+sondar 141 -34
+sondar 148 -22
+sondar 145 -21
+fimturno
+dominar 147 -21
+sondar 137 -31
+sondar 142 -34
+fimturno
+dominar 145 -21
+sondar 146 -20
+sondar 137 -30
+sondar 143 -34
+fimturno
+dominar 142 -34
+sondar 144 -21
+sondar 147 -20
+sondar 137 -32
+sondar 143 -33
+fimturno
+dominar 143 -34
+sondar 141 -35
+sondar 144 -20
+sondar 148 -20
+sondar 143 -32
+fimturno
+dominar 143 -33
+sondar 144 -33
+sondar 142 -35
+sondar 145 -20
+fimturno
+dominar 143 -32
+sondar 144 -32
+sondar 143 -35
+sondar 144 -22
+fimturno
+dominar 145 -20
+sondar 144 -31
+sondar 144 -34
+sondar 144 -35
+fimturno
+dominar 144 -22
+sondar 144 -19
+fimturno
+dominar 144 -35
+sondar 143 -22
+sondar 145 -19
+fimturno
+dominar 144 -19
+sondar 145 -36
+sondar 143 -21
+sondar 146 -19
+fimturno
+dominar 145 -19
+sondar 143 -19
+sondar 145 -35
+fimturno
+dominar 146 -19
+sondar 144 -18
+sondar 143 -18
+sondar 145 -34
+fimturno
+dominar 145 -35
+sondar 145 -18
+sondar 146 -18
+sondar 143 -20
+sondar 143 -36
+fimturno
+dominar 145 -34
+sondar 146 -34
+sondar 147 -18
+sondar 144 -36
+fimturno
+dominar 143 -36
+sondar 146 -33
+sondar 146 -36
+sondar 147 -19
+fimturno

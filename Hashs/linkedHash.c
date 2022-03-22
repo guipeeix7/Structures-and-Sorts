@@ -18,6 +18,17 @@ typedef struct LinkedHash{
 //     return headNode; 
 // }
 
+LinkedHash *initLH(int sizeVector){
+    LinkedHash *V = (LinkedHash*) malloc((sizeVector+1)*sizeof(LinkedHash));
+     
+    for(int i = 0 ; i < sizeVector ; i++){
+        V[i].value = 0; 
+        V[i].flag = -1; 
+        V[i].prox = NULL; 
+    }   
+    return V; 
+}
+
 int hash(int num){
     return num%MAXSIZE;
 }
@@ -120,15 +131,9 @@ LinkedHash *insert(int value, LinkedHash *V){
     // It means already used space
 }
 
-int linkedHash(int sizeVector){
-    LinkedHash *V = (LinkedHash*)  malloc((sizeVector+1)*sizeof(LinkedHash));
-     
-    for(int i = 0 ; i < sizeVector ; i++){
-        V[i].value = 0; 
-        V[i].flag = -1; 
-        V[i].prox = NULL; 
-    }   
-
+int linkedHash(){
+    int sizeVector = 10;
+    LinkedHash *V = initLH(sizeVector);
 
     insert(4, V);
     insert(14, V);
@@ -137,8 +142,11 @@ int linkedHash(int sizeVector){
     insert(8, V);
     insert(8, V);
     insert(9, V);
-    insert(10, V);
+    insert(18, V);
+    insert(28, V);
     // insert(6, V);
+    popTopLinkedHash(&V[hash(4)]);
+    popTopLinkedHash(&V[hash(4)]);
     popTopLinkedHash(&V[hash(4)]);
     popTopLinkedHash(&V[hash(4)]);
     popTopLinkedHash(&V[hash(4)]);

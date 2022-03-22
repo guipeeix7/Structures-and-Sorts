@@ -18,7 +18,7 @@ BinaryTree* init(){
     return root; 
 }
 
-BinaryTree* insert(BinaryTree *node,int value){
+BinaryTree* insert(int value){
     BinaryTree *newNode = (BinaryTree*) malloc(sizeof(BinaryTree));
     newNode->right = NULL;
     newNode->left = NULL;

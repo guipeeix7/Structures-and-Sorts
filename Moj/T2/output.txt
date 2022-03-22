@@ -1,0 +1,9 @@
+sondar 4 4
+fimturno
+dominar 4 4
+sondar 5 4
+fimturno
+dominar 5 4
+sondar 5 3
+sondar 6 4
+fimturno

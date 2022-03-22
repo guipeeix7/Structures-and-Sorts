@@ -1,1 +1,3 @@
-5 5 3 4
+5 5 3 10000
+sondagem 4 4 36
+dominacao 36
